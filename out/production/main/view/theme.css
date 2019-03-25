@@ -1,0 +1,69 @@
+.greenbutton
+{
+    -fx-background-color: LIGHTGRAY;
+	-fx-background-radius: 100;
+}
+
+.redbutton
+{
+    -fx-background-color: VIOLET;
+	-fx-background-radius: 100;
+}
+
+.bluebutton
+{
+    -fx-background-color: LIGHTSKYBLUE;
+	-fx-background-radius: 100;
+}
+
+.sadwhite
+{
+    -fx-background-color: white;
+	-fx-background-radius: 100;
+}
+
+.labelblue 
+{
+    -fx-font-size: 25px;
+    -fx-font-weight: bold;
+    -fx-text-fill: MIDNIGHTBLUE;
+    -fx-effect: dropshadow( gaussian , rgba(255,255,255,0.5) , 0,0,0,1 );
+}
+
+.labelred 
+{
+    -fx-font-size: 25px;
+    -fx-font-weight: bold;
+    -fx-text-fill: HOTPINK;
+    -fx-effect: dropshadow( gaussian , rgba(255,255,255,0.5) , 0,0,0,1 );
+}
+
+.hatter 
+{
+    -fx-background-image: url("../../../src/main/resources/alap.png");
+}
+
+.starthatter 
+{
+    -fx-background-image: url("../../../src/main/resources/start.png");
+}
+
+.ruleshatter 
+{
+    -fx-background-image: url("../../../src/main/resources/rules.png");
+}
+
+.toplisthatter 
+{
+    -fx-background-image: url("../../../src/main/resources/toplist.png");
+}
+
+.gamehatter 
+{
+    -fx-background-image: url("../../../src/main/resources/game.png");
+}
+
+.nyerteshatter 
+{
+    -fx-background-image: url("../../../src/main/resources/nyertes.png");
+}

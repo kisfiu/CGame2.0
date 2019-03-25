@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<players>
+	<player name="sanyi">
+		<matchesplayed>23</matchesplayed>
+		<matcheswon>19</matcheswon>
+		<matchesdraw>2</matchesdraw>
+		<points>201</points>
+	</player>
+	<player name="gabi">
+		<matchesplayed>13</matchesplayed>
+		<matcheswon>1</matcheswon>
+		<matchesdraw>0</matchesdraw>
+		<points>5</points>
+	</player>
+	<player name="tilda">
+		<matchesplayed>10</matchesplayed>
+		<matcheswon>1</matcheswon>
+		<matchesdraw>2</matchesdraw>
+		<points>11</points>
+	</player>
+</players>
