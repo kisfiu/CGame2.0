@@ -34,7 +34,7 @@
                 <role>Lead Designer</role>
                 <role>SandaBanda</role>
             </roles>
-            <organization>kisfiu coorporation</organization>
+            <organization>kisfiu corporation</organization>
         </developer>
     </developers>
 
@@ -49,39 +49,60 @@
 
 
     <build>
+            <defaultGoal>install</defaultGoal>
     <plugins>
-      <plugin>
-         <groupId>org.apache.maven.plugins</groupId>
+        <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-shade-plugin</artifactId>
+        <version>3.1.0</version>
+        <executions>
+        <execution>
+        <goals>
+            <goal>shade</goal>
+        </goals>
+        <phase>package</phase>
+        <configuration>
+        <transformers>
+            <transformer implementation="org.apache.maven.plugins.shade.resource.ManifestResourceTransformer">
+                <mainClass>controller.MainApp</mainClass>
+            </transformer>
+        </transformers>
+            <shadedArtifactAttached>true</shadedArtifactAttached>
+        </configuration>
+        </execution>
+        </executions>
+        </plugin>
+        <plugin>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-assembly-plugin</artifactId>
+            <version>3.1.1</version>
+            <executions>
+                <execution>
+                    <goals>
+                        <goal>single</goal>
+                    </goals>
+                    <phase>package</phase>
+                    <configuration>
+                        <archive>
+                            <manifest>
+                                <mainClass>controller.MainApp</mainClass>
+                            </manifest>
+                        </archive>
+                        <descriptorRefs>
+                            <descriptorRef>jar-with-dependencies</descriptorRef>
+                        </descriptorRefs>
+                    </configuration>
+                </execution>
+            </executions>
+        </plugin>
+        <plugin>
+            <groupId>org.apache.maven.plugins</groupId>
             <artifactId>maven-compiler-plugin</artifactId>
             <version>3.6.1</version>
             <configuration>
               <source>1.8</source>
               <target>1.8</target>
             </configuration>
-      </plugin>
-
-       <plugin>
-           <groupId>org.apache.maven.plugins</groupId>
-           <artifactId>maven-assembly-plugin</artifactId>
-           <version>3.0.0</version>
-           <executions>
-               <execution>
-                   <goals>
-                       <goal>single</goal>
-                    </goals>
-                    <phase>package</phase>
-                    <configuration>
-                        <descriptorRefs>
-                            <descriptorRef>jar-with-dependencies</descriptorRef>
-                        </descriptorRefs>
-                        <archive>
-                            <manifest>
-                                <mainClass>${mainClass}</mainClass>
-                            </manifest>
-                        </archive>
-                    </configuration>
-                </execution>
-            </executions>
         </plugin>
         <plugin>
             <groupId>org.apache.maven.plugins</groupId>
@@ -134,15 +155,8 @@
             <artifactId>maven-scm-plugin</artifactId>
             <version>1.11.2</version>
             <configuration>
-                <connectionType>connection</connectionType>
-            </configuration>
-        </plugin>
-        <plugin>
-            <groupId>org.apache.maven.plugins</groupId>
-            <artifactId>maven-scm-plugin</artifactId>
-            <version>1.11.2</version>
-            <configuration>
                 <connectionType>developerConnection</connectionType>
+                <connectionType>connection</connectionType>
             </configuration>
         </plugin>
         <!--<plugin>-->
@@ -207,6 +221,25 @@
                  <artifactId>maven-checkstyle-plugin</artifactId>
                  <version>3.0.0</version>
              </plugin>
+             <!--
+                                        kell ez ide??
+             <plugin>-->
+                 <!--<groupId>org.apache.maven.plugins</groupId>-->
+                 <!--<artifactId>maven-project-info-reports-plugin</artifactId>-->
+                 <!--<version>3.0.0</version>-->
+                 <!--<configuration>-->
+                     <!--<dependencyDetailsEnabled>false</dependencyDetailsEnabled>-->
+                     <!--<dependencyLocationsEnabled>false</dependencyLocationsEnabled>-->
+                 <!--</configuration>-->
+                 <!--<reportSets>-->
+                     <!--<reportSet>-->
+                         <!--<reports>-->
+                             <!--<report>dependencies</report>-->
+                             <!--<report>scm</report>-->
+                         <!--</reports>-->
+                     <!--</reportSet>-->
+                 <!--</reportSets>-->
+             <!--</plugin>-->
          </plugins>
     </reporting>
 
@@ -224,6 +257,12 @@
             <artifactId>junit</artifactId>
             <version>4.12</version>
             <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-assembly-plugin</artifactId>
+            <version>3.1.1</version>
+            <type>maven-plugin</type>
         </dependency>
     </dependencies>
 

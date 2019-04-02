@@ -133,7 +133,7 @@
     <points>1</points>
   </player>
 <player name="asd">
-    <matchesplayed>41</matchesplayed>
+    <matchesplayed>44</matchesplayed>
     <matcheswon>21</matcheswon>
     <matchesdraw>0</matchesdraw>
     <points>241</points>
@@ -145,9 +145,9 @@
     <points>1</points>
   </player>
 <player name="awdawd">
-    <matchesplayed>2</matchesplayed>
+    <matchesplayed>5</matchesplayed>
     <matcheswon>0</matcheswon>
     <matchesdraw>0</matchesdraw>
-    <points>0</points>
+    <points>14</points>
   </player>
 </players>
