@@ -1,71 +1,235 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
-  <modelVersion>4.0.0</modelVersion>
-  <groupId>hu.unideb.inf</groupId>
-  <artifactId>CCGame</artifactId>
-  <version>1.0</version>
-  <build>
-    <plugins>
-  	  <plugin>
- 		 <groupId>org.apache.maven.plugins</groupId>
-	        <artifactId>maven-compiler-plugin</artifactId>
-	        <version>3.6.1</version>
-	        <configuration>
-	          <source>1.8</source>
-	          <target>1.8</target>
-	        </configuration>
-  	  </plugin>
-  	  
-  	   <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-assembly-plugin</artifactId>
-                <version>3.0.0</version>
-                <executions>
-                    <execution>
-                        <goals>
-                            <goal>
-                                single
-                            </goal>
-                        </goals>
-                        <phase>package</phase>
-                        <configuration>
-                            <descriptorRefs>
-                                <descriptorRef>
-                                    jar-with-dependencies
-                                </descriptorRef>
-                            </descriptorRefs>
-                            <archive>
-                                <manifest>
-                                    <mainClass>${mainClass}</mainClass>
-                                </manifest>
-                            </archive>
-                        </configuration>
-                    </execution>
-                </executions>
-            </plugin>
-  	  
-  	  
-    </plugins>
-  </build>
-  <dependencies>
-	<dependency>
-    <groupId>xmlunit</groupId>
-    <artifactId>xmlunit</artifactId>
-    <version>1.6</version>
-</dependency>
-<dependency>
-            <groupId>junit</groupId>
-            <artifactId>junit</artifactId>
-            <version>4.12</version>
-            <scope>test</scope>
-        </dependency>
-</dependencies>
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0
+                      http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>hu.unideb.inf</groupId>
+    <artifactId>CCGame</artifactId>
+    <version>1.0</version>
 
-<properties>
+    <!-- More Project Information -->
+    <name>CGame2.0</name>
+    <description>Basically this is just the best game ever</description>
+    <url>https://github.com/kisfiu/CGame2.0</url>
+    <scm>
+        <connection>scm:svn:https://github.com/kisfiu/CGame2.0</connection>
+        <developerConnection>scm:svn:https://github.com/kisfiu</developerConnection>
+        <url>https://github.com/kisfiu</url>
+    </scm>
+    <inceptionYear>2017-2019</inceptionYear>
+    <licenses>
+        <license>
+            <name>Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</name>
+            <url>https://creativecommons.org/licenses/by-sa/4.0/</url>
+            <comments>Use it as u want it...idc</comments>
+        </license>
+    </licenses>
+    <developers>
+        <developer>
+            <name>Kovács Kristóf</name>
+            <email>kristofkovacs25@gmail.com</email>
+            <roles>
+                <role>Lead Developer</role>
+                <role>Lead Designer</role>
+                <role>SandaBanda</role>
+            </roles>
+            <organization>kisfiu coorporation</organization>
+        </developer>
+    </developers>
+
+    <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.build.outputEncoding>UTF-8</project.build.outputEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <minJdk>1.8.0</minJdk>
         <mainClass>controller.MainApp</mainClass>
     </properties>
-    
+
+
+
+    <build>
+    <plugins>
+      <plugin>
+         <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-compiler-plugin</artifactId>
+            <version>3.6.1</version>
+            <configuration>
+              <source>1.8</source>
+              <target>1.8</target>
+            </configuration>
+      </plugin>
+
+       <plugin>
+           <groupId>org.apache.maven.plugins</groupId>
+           <artifactId>maven-assembly-plugin</artifactId>
+           <version>3.0.0</version>
+           <executions>
+               <execution>
+                   <goals>
+                       <goal>single</goal>
+                    </goals>
+                    <phase>package</phase>
+                    <configuration>
+                        <descriptorRefs>
+                            <descriptorRef>jar-with-dependencies</descriptorRef>
+                        </descriptorRefs>
+                        <archive>
+                            <manifest>
+                                <mainClass>${mainClass}</mainClass>
+                            </manifest>
+                        </archive>
+                    </configuration>
+                </execution>
+            </executions>
+        </plugin>
+        <plugin>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-enforcer-plugin</artifactId>
+            <version>3.0.0-M2</version>
+            <executions>
+                <execution>
+                    <id>enforce-java</id>
+                    <goals>
+                        <goal>enforce</goal>
+                    </goals>
+                    <configuration>
+                        <rules>
+                            <requireJavaVersion>
+                                <version>1.6.0</version>
+                            </requireJavaVersion>
+                        </rules>
+                    </configuration>
+                </execution>
+            </executions>
+        </plugin>
+
+        <plugin>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-javadoc-plugin</artifactId>
+            <version>3.1.0</version>
+        </plugin>
+        <plugin>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-surefire-report-plugin</artifactId>
+            <version>3.0.0-M3</version>
+        </plugin>
+        <plugin>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-jxr-plugin</artifactId>
+            <version>3.0.0</version>
+        </plugin>
+        <plugin>
+            <groupId>org.jacoco</groupId>
+            <artifactId>jacoco-maven-plugin</artifactId>
+            <version>0.8.3</version>
+        </plugin>
+        <plugin>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-checkstyle-plugin</artifactId>
+            <version>3.0.0</version>
+        </plugin>
+        <plugin>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-scm-plugin</artifactId>
+            <version>1.11.2</version>
+            <configuration>
+                <connectionType>connection</connectionType>
+            </configuration>
+        </plugin>
+        <plugin>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-scm-plugin</artifactId>
+            <version>1.11.2</version>
+            <configuration>
+                <connectionType>developerConnection</connectionType>
+            </configuration>
+        </plugin>
+        <!--<plugin>-->
+            <!--<groupId>org.codehaus.mojo</groupId>-->
+            <!--<artifactId>license-maven-plugin</artifactId>-->
+            <!--<version>1.19</version>-->
+            <!--<executions>-->
+                <!--<execution>-->
+                    <!--<id>download-licenses</id>-->
+                    <!--<goals>-->
+                        <!--<goal>download-licenses</goal>-->
+                    <!--</goals>-->
+                <!--</execution>-->
+            <!--</executions>-->
+        <!--</plugin>-->
+        <plugin>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-site-plugin</artifactId>
+            <version>3.7.1</version>
+        </plugin>
+        <plugin>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-project-info-reports-plugin</artifactId>
+            <version>3.0.0</version>
+        </plugin>
+    </plugins>
+    </build>
+
+
+
+    <reporting>
+         <plugins>
+             <plugin>
+                 <groupId>org.apache.maven.plugins</groupId>
+                 <artifactId>maven-javadoc-plugin</artifactId>
+                 <version>3.1.0</version>
+             </plugin>
+             <plugin>
+                 <groupId>org.apache.maven.plugins</groupId>
+                 <artifactId>maven-surefire-report-plugin</artifactId>
+                 <version>3.0.0-M3</version>
+             </plugin>
+             <plugin>
+                 <groupId>org.apache.maven.plugins</groupId>
+                 <artifactId>maven-jxr-plugin</artifactId>
+                 <version>3.0.0</version>
+             </plugin>
+             <plugin>
+                 <groupId>org.jacoco</groupId>
+                 <artifactId>jacoco-maven-plugin</artifactId>
+                 <reportSets>
+                     <reportSet>
+                         <reports>
+                             <!-- select non-aggregate reports -->
+                             <report>report</report>
+                         </reports>
+                     </reportSet>
+                 </reportSets>
+             </plugin>
+             <plugin>
+                 <groupId>org.apache.maven.plugins</groupId>
+                 <artifactId>maven-checkstyle-plugin</artifactId>
+                 <version>3.0.0</version>
+             </plugin>
+         </plugins>
+    </reporting>
+
+
+
+
+    <dependencies>
+        <dependency>
+            <groupId>xmlunit</groupId>
+            <artifactId>xmlunit</artifactId>
+            <version>1.6</version>
+        </dependency>
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>4.12</version>
+            <scope>test</scope>
+        </dependency>
+    </dependencies>
+
+
+
+
+
+
 </project>

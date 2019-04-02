@@ -1,0 +1,9 @@
+model/Merge.class
+controller/MainApp.class
+model/ReadXMLFile.class
+view/MenuController.class
+model/XmlProba.class
+view/GameController.class
+view/ToplistController.class
+view/StartGameController.class
+view/RulesController.class
