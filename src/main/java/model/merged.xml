@@ -76,7 +76,7 @@
     <matchesplayed>1</matchesplayed>
     <matcheswon>1</matcheswon>
     <matchesdraw>0</matchesdraw>
-    <points>10</points>
+    <points>1000</points>
   </player>
 <player name="Benyus">
     <matchesplayed>1</matchesplayed>
@@ -133,7 +133,7 @@
     <points>1</points>
   </player>
 <player name="asd">
-    <matchesplayed>44</matchesplayed>
+    <matchesplayed>46</matchesplayed>
     <matcheswon>21</matcheswon>
     <matchesdraw>0</matchesdraw>
     <points>241</points>
@@ -145,9 +145,45 @@
     <points>1</points>
   </player>
 <player name="awdawd">
-    <matchesplayed>5</matchesplayed>
+    <matchesplayed>7</matchesplayed>
     <matcheswon>0</matcheswon>
     <matchesdraw>0</matchesdraw>
     <points>14</points>
+  </player>
+<player name="Gazsika">
+    <matchesplayed>4</matchesplayed>
+    <matcheswon>4</matcheswon>
+    <matchesdraw>0</matchesdraw>
+    <points>47</points>
+  </player>
+<player name="Norman">
+    <matchesplayed>4</matchesplayed>
+    <matcheswon>0</matcheswon>
+    <matchesdraw>0</matchesdraw>
+    <points>19</points>
+  </player>
+<player name="Gaz33sika">
+    <matchesplayed>1</matchesplayed>
+    <matcheswon>1</matcheswon>
+    <matchesdraw>0</matchesdraw>
+    <points>10</points>
+  </player>
+<player name="Norm33an">
+    <matchesplayed>1</matchesplayed>
+    <matcheswon>0</matcheswon>
+    <matchesdraw>0</matchesdraw>
+    <points>3</points>
+  </player>
+<player name="nemtudommivan">
+    <matchesplayed>2</matchesplayed>
+    <matcheswon>2</matcheswon>
+    <matchesdraw>0</matchesdraw>
+    <points>18</points>
+  </player>
+<player name="akkornejátsz">
+    <matchesplayed>2</matchesplayed>
+    <matcheswon>0</matcheswon>
+    <matchesdraw>0</matchesdraw>
+    <points>4</points>
   </player>
 </players>

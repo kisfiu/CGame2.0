@@ -11,11 +11,20 @@ import javafx.scene.Scene;
 import javafx.scene.control.Button;
 import javafx.stage.Stage;
 
+
+
+/**
+ * Controller for the Rules.fxml, for the Rules page.
+ */
 public class RulesController {
 
 	
 	@FXML
 	private Button gobackbutton;
+
+	/**
+	 * Go back button, if someone clicks on it, then they will return to the menu of the game.
+	 */
 	@FXML
 	private void handBackto(ActionEvent event) throws IOException 
 	{		

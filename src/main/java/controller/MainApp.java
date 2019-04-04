@@ -8,7 +8,6 @@ import javafx.scene.Scene;
 import javafx.scene.layout.AnchorPane;
 import javafx.stage.Stage;
 
-
 public class MainApp extends Application {
 
     private Stage primaryStage;
@@ -21,6 +20,8 @@ public class MainApp extends Application {
 
         showmenu();
     }
+
+
 
     /**
      * Initializes the root layout.
@@ -36,7 +37,8 @@ public class MainApp extends Application {
             Scene scene = new Scene(menu);
             primaryStage.setScene(scene);
             primaryStage.show();
-        } catch (IOException e) {
+        }
+        catch (IOException e) {
             e.printStackTrace();
         }
     }
@@ -50,6 +52,9 @@ public class MainApp extends Application {
         return primaryStage;
     }
 
+    /**
+     *
+     */
     public static void main(String[] args) {
         launch(args);
     }

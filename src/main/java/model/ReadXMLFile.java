@@ -11,6 +11,10 @@ import org.w3c.dom.Node;
 import org.w3c.dom.Element;
 import java.io.File;
 
+
+/**
+ * It is for the testing. How the xml database compares the players.
+ */
 public class ReadXMLFile {
 
 	
@@ -20,59 +24,54 @@ public class ReadXMLFile {
 	public static void settName1(String playeronetext)     {neve1 = playeronetext;}
 	public static void settName2(String playertwotext)     {neve2 = playertwotext;}
 
-	
-	
-  public static void main(String argv[]) {
+	public static void main(String argv[])
+	{
 
-    try {
+		try
+		{
+			File fXmlFile = new File("src/main/java/model/players.xml");
+			DocumentBuilderFactory dbFactory = DocumentBuilderFactory.newInstance();
+			DocumentBuilder dBuilder = dbFactory.newDocumentBuilder();
+			Document doc = dBuilder.parse(fXmlFile);
 
-	File fXmlFile = new File("src/main/java/model/players.xml");
-	DocumentBuilderFactory dbFactory = DocumentBuilderFactory.newInstance();
-	DocumentBuilder dBuilder = dbFactory.newDocumentBuilder();
-	Document doc = dBuilder.parse(fXmlFile);
+			//read this - http://stackoverflow.com/questions/13786607/normalization-in-dom-parsing-with-java-how-does-it-work
+			doc.getDocumentElement().normalize();
 
-	//read this - http://stackoverflow.com/questions/13786607/normalization-in-dom-parsing-with-java-how-does-it-work
-	doc.getDocumentElement().normalize();
+			System.out.println("Root element :" + doc.getDocumentElement().getNodeName());
 
-	System.out.println("Root element :" + doc.getDocumentElement().getNodeName());
+			NodeList nList = doc.getElementsByTagName("player");
 
-	NodeList nList = doc.getElementsByTagName("player");
+			System.out.println("----------------------------");
 
-	System.out.println("----------------------------");
-
-	for (int temp = 0; temp < nList.getLength(); temp++) {
-
-		Node nNode = nList.item(temp);
-
-		System.out.println("\nCurrent Element :" + nNode.getNodeName());
-
-		if (nNode.getNodeType() == Node.ELEMENT_NODE) {
-
-			Element eElement = (Element) nNode;
-
-			String neve = eElement.getAttribute("name");
-			if (neve.equals(neve1))
+			for (int temp = 0; temp < nList.getLength(); temp++)
 			{
-				System.out.println("\n" + "ezmárvolt" + "\n");
-	 		}
-			
-			String pontja = eElement.getElementsByTagName("points").item(0).getTextContent();
-			System.out.println(pontja);
-			
-//			if(pontja == )
-			
-//			
-//			System.out.println("Player Name : " + eElement.getAttribute("name"));
-//			System.out.println("Matches played : " + eElement.getElementsByTagName("matchesplayed").item(0).getTextContent());
-//			System.out.println("Matches won : " + eElement.getElementsByTagName("matcheswon").item(0).getTextContent());
-//			System.out.println("Matches draw : " + eElement.getElementsByTagName("matchesdraw").item(0).getTextContent());
-//			System.out.println("Points : " + eElement.getElementsByTagName("points").item(0).getTextContent());
+				Node nNode = nList.item(temp);
+				System.out.println("\nCurrent Element :" + nNode.getNodeName());
+				if (nNode.getNodeType() == Node.ELEMENT_NODE)
+				{
+					Element eElement = (Element) nNode;
+					String neve = eElement.getAttribute("name");
+					if (neve.equals(neve1))
+					{
+						System.out.println("\n" + "ezmárvolt" + "\n");
+					}
 
-		}
-	}
-    } catch (Exception e) {
-	e.printStackTrace();
-    }
-  }
+					String pontja = eElement.getElementsByTagName("points").item(0).getTextContent();
+					System.out.println(pontja);
 
+			//	if(pontja == )
+			//
+			//	System.out.println("Player Name : " + eElement.getAttribute("name"));
+			//	System.out.println("Matches played : " + eElement.getElementsByTagName("matchesplayed").item(0).getTextContent());
+			//	System.out.println("Matches won : " + eElement.getElementsByTagName("matcheswon").item(0).getTextContent());
+			//	System.out.println("Matches draw : " + eElement.getElementsByTagName("matchesdraw").item(0).getTextContent());
+			//	System.out.println("Points : " + eElement.getElementsByTagName("points").item(0).getTextContent());
+				}
+			}
+    	}
+		catch (Exception e)
+		{
+			e.printStackTrace();
+    	}
+  	}
 }

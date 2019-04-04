@@ -27,13 +27,19 @@ import javafx.scene.control.Label;
 import javafx.stage.Stage;
 
 
+
+/**
+ * Controller for the Toplist.fxml, for the toplist of the game. It shows the top 10 players and their points (in order).
+ */
 public class ToplistController
 {
 
 	@FXML
 	private Button gobackbutton;
-	
-	
+
+	/**
+	 * Handles the Back button, to return to the menu of the game.
+	 */
 	@FXML
 	private void handBackto(ActionEvent event) throws IOException 
 	{		
@@ -59,6 +65,9 @@ public class ToplistController
     
     @FXML
     Button muta;
+	/**
+	 * Handles the Let's see button. to reveal the toplist.
+	 */
     @FXML
     public void mutasd() throws TransformerException, ParserConfigurationException, IOException, SAXException 
     {
@@ -76,8 +85,10 @@ public class ToplistController
 		String frommergednev;
 		int Ifrommerged;
 		int k = 0;
-		
-		
+
+		/**
+		 * Sets up the names
+		 */
 		for(int j=0; j<nodes.getLength(); j=j+1)
 		{	
 			org.w3c.dom.Node Nmerged = nodes.item(j);
@@ -98,6 +109,11 @@ public class ToplistController
 		}
 		Arrays.sort(arraypontok);
 		System.out.println(Arrays.toString(arraypontok));
+
+
+		/**
+		 * Sets up the points for the names
+		 */
 		for(int i = 0; i < arraypontok.length / 2; i++)
 		{
 		    int temp = arraypontok[i];
@@ -117,8 +133,10 @@ public class ToplistController
 		String pont8 = Integer.toString(arraypontok[7]);	this.points8.setText(pont8);
 		String pont9 = Integer.toString(arraypontok[8]);	this.points9.setText(pont9);
 		String pont10 = Integer.toString(arraypontok[9]);	this.points10.setText(pont10);
-	
-		
+
+		/**
+		 *
+		 */
 		int l = 0;
 		for(int j=0; j<nodes.getLength(); j=j+1)
 		{	
@@ -140,7 +158,11 @@ public class ToplistController
 			}
 			
 		}
-		
+
+
+		/**
+		 * Setting up the toplist from the array
+		 */
 		String nev1 = (arraynev[0]);	this.name1.setText(nev1);
 		String nev2 = (arraynev[1]);	this.name2.setText(nev2);
 		String nev3 = (arraynev[2]);	this.name3.setText(nev3);

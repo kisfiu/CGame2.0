@@ -21,6 +21,10 @@ import javafx.scene.Parent;
 import javafx.scene.Scene;
 
 
+/**
+ * Controller for the Menu.fxml, for the menu in the game.
+ *
+ */
 public class MenuController
 {
 	@FXML
@@ -38,10 +42,13 @@ public class MenuController
 	
 	@FXML
 	private Button toplistbutton;
+
+	/**
+	 * Sets up the Toplist button
+	 */
 	@FXML
 	private void handletoplistbutton(ActionEvent event) throws IOException, TransformerException, ParserConfigurationException, SAXException 
-	{		
-		
+	{
 //    	SetToplist.main(null);
 		Node node=(Node) event.getSource();
 		Stage stage=(Stage) node.getScene().getWindow();
@@ -60,7 +67,10 @@ public class MenuController
 	private Text texxt;
 	@FXML
 	private Button rulesbutton;
-	
+
+	/**
+	 * Sets up the Rules button
+	 */
 	@FXML
 	private void handlerulesbutton(ActionEvent e) throws IOException
 	{
@@ -78,6 +88,9 @@ public class MenuController
 //		noode.setDisable(true);
 	}
 
+	/**
+	 *
+	 */
 	// Reference to the main application.
     private MainApp mainApp;
 
@@ -85,8 +98,7 @@ public class MenuController
      * The constructor.
      * The constructor is called before the initialize() method.
      */
-    public MenuController() {
-    }
+    public MenuController() {}
 
     /**
      * Initializes the controller class. This method is automatically called
@@ -101,6 +113,5 @@ public class MenuController
      */
     public void setMainApp(MainApp mainApp) {
         this.mainApp = mainApp;
-
     }
 }

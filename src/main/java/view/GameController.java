@@ -24,6 +24,11 @@ import org.xml.sax.SAXException;
 
 import controller.MainApp;
 
+
+/**
+ * Controller for the Game.fxml
+ * How the players take turns according to the rules.
+ */
 public class GameController
 {
 	@FXML	private Button button00; @FXML  private Button button01;
@@ -55,7 +60,7 @@ public class GameController
 	@FXML 	private Button button64; @FXML 	private Button button65;
 	@FXML 	private Button button66;
 	
-
+	//go back button
 	@FXML
 	private Button backbutton;
 	@FXML
@@ -80,11 +85,11 @@ public class GameController
 	private Label onepointslabel;
 	@FXML
 	private Label twopointslabel;
-	
-	
-	
-	
 
+
+	/**
+	 * Setting up the colors for the circles for the next player, to know which ones they can choose next.
+	 */
 	void szinvalaszto(Node noode)
 	{
 		if (noode != null) 
@@ -97,7 +102,9 @@ public class GameController
 		}
 	}
 
-	
+	/**
+	 * It changes the color of the circles that the player on turn can choose
+	 */
 	void szinezzunk(Node node)
 	{
 		Node noode=(Node) node;
@@ -125,8 +132,10 @@ public class GameController
 		noode =(Button) scene.lookup(button7); szinvalaszto(noode);
 		noode =(Button) scene.lookup(button8); szinvalaszto(noode);
 	}
-	
-	
+
+	/**
+	 *
+	 */
 	public int nyertes1 = 0;
 	public int nyertes2 = 0;
 	public int draw1 = 0;
@@ -134,6 +143,10 @@ public class GameController
 	public int osszpiros = 0;
 	public int osszkek = 0;
 	public int lepes = 0;
+
+	/**
+	 * Decides if the player on turn can choose the given circle or not. They can choose the dark ones.
+	 */
 	@FXML
 	public void lepeslehetoseg(ActionEvent e) throws InterruptedException, TransformerException, ParserConfigurationException, IOException, SAXException
 	{
@@ -149,7 +162,7 @@ public class GameController
 				lepes = 1;
 				szinezzunk(node);
 		    }
-			else{node.setDisable(true);node.setDisable(false);}
+			else {node.setDisable(true);node.setDisable(false);}
 		}
 		else if (lepes<2)
 		{
@@ -161,7 +174,7 @@ public class GameController
 				node.setStyle("-fx-background-color: TRANSPARENT;");
 		    	node.setDisable(true);
 		    	lepes = 2;}
-			else{node.setDisable(true);node.setDisable(false);}
+			else {node.setDisable(true);node.setDisable(false);}
 		}
 		else
 		{	
@@ -325,8 +338,11 @@ public class GameController
 	    		noodee =(Button) scene.lookup(buttonnn7); 		    
 	    		if (noodee != null) { Color ccolorr = (Color)((Region) noodee).getBackground().getFills().get(0).getFill(); if (ccolorr == Color.LIGHTGRAY) {zold += 1;} else if (ccolorr == Color.VIOLET) {piros += 1;} else if (ccolorr == Color.LIGHTSKYBLUE) {kek += 1;}  } 
 	    		noodee =(Button) scene.lookup(buttonnn8); 
-	    		if (noodee != null) { Color ccolorr = (Color)((Region) noodee).getBackground().getFills().get(0).getFill(); if (ccolorr == Color.LIGHTGRAY) {zold += 1;} else if (ccolorr == Color.VIOLET) {piros += 1;} else if (ccolorr == Color.LIGHTSKYBLUE) {kek += 1;}  } 
-	    	 
+	    		if (noodee != null) { Color ccolorr = (Color)((Region) noodee).getBackground().getFills().get(0).getFill(); if (ccolorr == Color.LIGHTGRAY) {zold += 1;} else if (ccolorr == Color.VIOLET) {piros += 1;} else if (ccolorr == Color.LIGHTSKYBLUE) {kek += 1;}  }
+
+				/**
+				 * Decides if the game could go on. No more circles means it over.
+				 */
 	    		if (zold == 0 && piros == 0 && kek == 0)
 	    		{ 
 	    			if(osszpiros > osszkek)
@@ -344,22 +360,26 @@ public class GameController
 		    			lepeslabel.setText("No more possible steps! The blue player won!");
 		    			nyertes2 = 1;
 	    			}
-	    		
 	    		}
-	    		
-	    		
-	    		
+
+				/**
+				 * Which player has collected 10 of their own circles first.
+				 * That one won.
+				 */
 	    		if (osszpiros == 10)
 	    		{
 	    			lepeslabel.setText("The pink player won!");
 	    			nyertes1 = 1;
 	    		}
-	    		
 	    		if (osszkek == 10)
 	    		{
 	    			lepeslabel.setText("The blue player won!");
 	    			nyertes2 = 1;
 	    		}
+
+				/**
+				 * If someone won then all of the circles will be 'turned off'
+				 */
 	    		if (lepeslabel.getText().equals("The blue player won!")  || lepeslabel.getText().equals("No more possible steps! The pink player won!") || lepeslabel.getText().equals("No more possible steps! DRAW!") || lepeslabel.getText().equals("The pink player won!") || lepeslabel.getText().equals("No more possible steps! The blue player won!"))
 	    		{
 	    			int x;
@@ -377,70 +397,83 @@ public class GameController
 							nnnnoode.setDisable(true);
 					    }	
 					}
-	    		
-		   		String player1pontok = Integer.toString(osszkek); 
-	    		String player2pontok = Integer.toString(osszpiros);
-	    		String player1nyertes = Integer.toString(nyertes1);
-	    		String player2nyertes = Integer.toString(nyertes2);
-	    		String player1draw = Integer.toString(draw1);
-	    		String player2draw = Integer.toString(draw2);
-	    		
-	    		
-	            XmlProba.setpontok1(player1pontok);
-	            XmlProba.setpontok2(player2pontok);
-	            XmlProba.setnyertes1(player1nyertes);
-	            XmlProba.setnyertes2(player2nyertes);
-	            XmlProba.setdraw1(player1draw);
-	            XmlProba.setdraw2(player2draw);
 
-	            
-	            
-	            ReadXMLFile.setpontok1(player1pontok);
-	            ReadXMLFile.setpontok2(player2pontok);
-	            ReadXMLFile.main(null);
-	            try {
-					XmlProba.main(null);
-				} catch (TransformerException e1) {
-					// TODO Auto-generated catch block
-					e1.printStackTrace();
-				} catch (ParserConfigurationException e1) {
-					// TODO Auto-generated catch block
-					e1.printStackTrace();
-				}
-	    		
-	            Merge.szamolj();
-	            
-	    		}
-	    		
+					/**
+					 * From integer to string so the xml database can work with the date.
+					 */
+					String player1pontok = Integer.toString(osszkek);
+					String player2pontok = Integer.toString(osszpiros);
+					String player1nyertes = Integer.toString(nyertes1);
+					String player2nyertes = Integer.toString(nyertes2);
+					String player1draw = Integer.toString(draw1);
+					String player2draw = Integer.toString(draw2);
+
+					/**
+					 * Gives the data to the XmlProda.java so it can make the database.
+					 */
+					XmlProba.setpontok1(player1pontok);
+					XmlProba.setpontok2(player2pontok);
+					XmlProba.setnyertes1(player1nyertes);
+					XmlProba.setnyertes2(player2nyertes);
+					XmlProba.setdraw1(player1draw);
+					XmlProba.setdraw2(player2draw);
+
+					/**
+					 * Data for ReadXMLFile.java
+					 */
+					ReadXMLFile.setpontok1(player1pontok);
+					ReadXMLFile.setpontok2(player2pontok);
+					ReadXMLFile.main(null);
+					try {
+						XmlProba.main(null);
+					} catch (TransformerException e1) {
+						// TODO Auto-generated catch block
+						e1.printStackTrace();
+					} catch (ParserConfigurationException e1) {
+						// TODO Auto-generated catch block
+						e1.printStackTrace();
+					}
+
+					/**
+					 * Merging the two xml files to create the database.
+					 */
+					Merge.szamolj();
+
+					}
 
 	    		node.setDisable(false);
-		    	szinezzunk(node);
-				node.setStyle("-fx-background-color: TRANSPARENT;");
-		    	node.setDisable(true);
-		    	
+	    		szinezzunk(node);
+	    		node.setStyle("-fx-background-color: TRANSPARENT;");
+	    		node.setDisable(true);
 		    }
-		}	
-	
-			
+		}
 	}
-	
+
+	/**
+	 *
+	 */
     private void setDisable(boolean b) 
     {
 		// TODO Auto-generated method stub	
 	}
+
+	/**
+	 *
+	 */
 	// Reference to the main application.
     private MainApp mainApp;
+
     /**
      * The constructor.
      * The constructor is called before the initialize() method.
      */
     public GameController() 
     {}
+
     /**
      * Initializes the controller class. This method is automatically called
      * after the fxml file has been loaded.
      */
-    
 
     /**
      * Is called by the main application to give a reference back to itself.

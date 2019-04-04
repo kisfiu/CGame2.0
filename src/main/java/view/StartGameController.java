@@ -20,11 +20,18 @@ import javax.xml.transform.TransformerException;
 
 import controller.MainApp;
 
+
+/**
+ * Controller for the StartGame.fxml, the game's starting page.
+ */
 public class StartGameController
 {
 	@FXML
 	private Button letsgobutton;
-	
+
+	/**
+	 * If we start the game, then it sets up the labels
+	 */
 	@FXML
     public void okClicked() throws IOException 
     {        	
@@ -50,8 +57,10 @@ public class StartGameController
 		}
 //        XmlProba.ssettName(playertwotext.getText());
 
-        
-       
+
+		/**
+		 * Players can not play with the same name.
+		 */
         if(playeronetext.getText().isEmpty() || playertwotext.getText().isEmpty() || playeronetext.getText().equals(playertwotext.getText()))
         	{letsgobutton.setDisable(true);
         		nameslabel.setText("Hey thats not good");
@@ -62,6 +71,9 @@ public class StartGameController
 
 	@FXML
 	private Button gobackbutton;
+	/**
+	 * Handles the Back button, to return to the menu.
+	 */
 	@FXML
 	private void handBackto(ActionEvent event) throws IOException 
 	{		
@@ -85,8 +97,11 @@ public class StartGameController
 	
 	@FXML
 	private TextField playertwotext;
-	
-	
+
+
+	/**
+	 *
+	 */
     // Reference to the main application.
     private MainApp mainApp;
 

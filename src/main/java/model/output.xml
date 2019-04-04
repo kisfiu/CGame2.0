@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <players>
-  <player name="asd">
+  <player name="nemtudommivan">
     <matchesplayed>1</matchesplayed>
-    <matcheswon>0</matcheswon>
+    <matcheswon>1</matcheswon>
     <matchesdraw>0</matchesdraw>
-    <points>0</points>
+    <points>9</points>
   </player>
-  <player name="awdawd">
+  <player name="akkornejátsz">
     <matchesplayed>1</matchesplayed>
     <matcheswon>0</matcheswon>
     <matchesdraw>0</matchesdraw>
-    <points>0</points>
+    <points>2</points>
   </player>
 </players>

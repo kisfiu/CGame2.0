@@ -25,9 +25,16 @@ import org.w3c.dom.Node;
 import org.w3c.dom.NodeList;
 import org.xml.sax.SAXException;
 
+
+
+/**
+ * Merging the xml files to create the new database.
+ */
 public class Merge {
-	
-	
+
+	/**
+	 * Merging
+	 */
 	public static Map<Integer, Map> szamolj() throws TransformerException, ParserConfigurationException, IOException, SAXException 
     {
 //	ClassLoader classloader = getClass().getClassLoader();
@@ -37,16 +44,20 @@ public class Merge {
 	Document doc = builder.parse(new File("src/main/java/model/merged.xml"));   
 	Document doc1 = builder.parse(new File("src/main/java/model/output.xml"));   
 
-	NodeList nodes = doc.getElementsByTagName("player");  
-
+	NodeList nodes = doc.getElementsByTagName("player");
 	NodeList nodes1 = doc1.getElementsByTagName("player");
 
-	
 	int elsonem = 0;
 	int masodiknem = 0;
 		
 	Map<Integer,Map> scores = new HashMap<>();
 
+
+	/**
+	 * Goes through the xml files and compare the output.xml with the existing ones in merged.xml
+	 * Name by name.
+	 * If the first player's name already exists in the database then it will give the player the deserved points
+	 */
 	Node Noutput1 = nodes1.item(0);
 	Element Eoutput1 = (Element) Noutput1;
 	String nevoutput1 = Eoutput1.getAttribute("name");
@@ -61,7 +72,7 @@ public class Merge {
 		System.out.println(nevmerged);
 		
 		player.put("name", nevmerged);
-		
+
 		if(nevoutput1.equals(nevmerged))
 		{
 			System.out.println("______________takarmany");
@@ -112,8 +123,13 @@ public class Merge {
 			}
 		scores.put(j, player);
 	}
-		 
 
+
+	/**
+	 * Goes through the xml files and compare the output.xml with the existing ones in merged.xml
+	 * Name by name.
+	 * If the first player's name already exists in the database then it will give the player the deserved points
+ 	*/
 	Node Noutput2 = nodes1.item(1);
 	Element Eoutput2 = (Element) Noutput2;
 	String nevoutput2 = Eoutput2.getAttribute("name");
@@ -170,22 +186,24 @@ public class Merge {
 				System.out.println("--------------------megvagy");
 			}
 	}
-		
-		
-		
-		if(elsonem == 0)
-		{
-			Node n= (Node) doc.importNode(nodes1.item(0), true);  
-			nodes.item(0).getParentNode().appendChild(n);
-		}
-		if(masodiknem == 0)
-		{
-			Node n= (Node) doc.importNode(nodes1.item(1), true);  
-			nodes.item(1).getParentNode().appendChild(n);
-		}
-		
-		System.out.println(elsonem);
-		System.out.println(masodiknem);			
+
+
+	/**
+	 * If it's a new player, then we just add it to the database.
+	 */
+	if(elsonem == 0)
+	{
+		Node n= (Node) doc.importNode(nodes1.item(0), true);
+		nodes.item(0).getParentNode().appendChild(n);
+	}
+	if(masodiknem == 0)
+	{
+		Node n= (Node) doc.importNode(nodes1.item(1), true);
+		nodes.item(1).getParentNode().appendChild(n);
+	}
+
+	System.out.println(elsonem);
+	System.out.println(masodiknem);
 		
 
 	Transformer transformer = TransformerFactory.newInstance().newTransformer();  
@@ -205,15 +223,6 @@ public class Merge {
 	
 	return scores;
     }
-	
-	
-
-	
-	
-	
-	
-	
-	
 
 //	String probalunk = Emerged.getElementsByTagName("matchesplayed").item(0).getTextContent();
 //	if (probalunk.equalsIgnoreCase("3"))
@@ -230,8 +239,4 @@ public class Merge {
 //		String asd = "0";
 //		return asd; 
 //	}
-
-
-
-
 }

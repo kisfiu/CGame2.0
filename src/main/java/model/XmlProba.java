@@ -21,6 +21,10 @@ import javafx.scene.text.Text;
  *
  * @author kisfiu
  */
+
+/**
+ * Creates the output.xml. The output.xml has the two players whom just played
+ */
 public class XmlProba {
 
     /**
@@ -168,13 +172,5 @@ public class XmlProba {
         StreamResult file = new StreamResult(new File("src/main/java/model/output.xml"));
 
         transformer.transform(source, file);
-
     }
-
-	
-
-	
-
-
-
 }
