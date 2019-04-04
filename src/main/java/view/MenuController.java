@@ -20,6 +20,9 @@ import javafx.scene.Node;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
 
+import org.pmw.tinylog.Logger;
+
+
 
 /**
  * Controller for the Menu.fxml, for the menu in the game.

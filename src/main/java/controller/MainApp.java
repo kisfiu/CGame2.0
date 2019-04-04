@@ -7,9 +7,13 @@ import javafx.fxml.FXMLLoader;
 import javafx.scene.Scene;
 import javafx.scene.layout.AnchorPane;
 import javafx.stage.Stage;
+import org.pmw.tinylog.Logger;
 
+/**
+ * Main app.
+ * Extends application.Application
+ */
 public class MainApp extends Application {
-
     private Stage primaryStage;
     private AnchorPane menu;
 
@@ -17,7 +21,6 @@ public class MainApp extends Application {
     public void start(Stage primaryStage) {
         this.primaryStage = primaryStage;
         this.primaryStage.setTitle("ColorGame");
-
         showmenu();
     }
 
@@ -33,6 +36,9 @@ public class MainApp extends Application {
             loader.setLocation(MainApp.class.getResource("/Menu.fxml"));
             menu = (AnchorPane) loader.load();
 
+            Logger.info("My first log entry");
+            Logger.warn("Test warning.");
+
             // Show the scene containing the root layout.
             Scene scene = new Scene(menu);
             primaryStage.setScene(scene);
@@ -40,6 +46,7 @@ public class MainApp extends Application {
         }
         catch (IOException e) {
             e.printStackTrace();
+            Logger.error("BAMM", e);
         }
     }
 

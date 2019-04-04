@@ -25,6 +25,8 @@ import org.w3c.dom.Node;
 import org.w3c.dom.NodeList;
 import org.xml.sax.SAXException;
 
+import org.pmw.tinylog.Logger;
+
 
 
 /**
@@ -33,7 +35,7 @@ import org.xml.sax.SAXException;
 public class Merge {
 
 	/**
-	 * Merging
+	 * Merging. Makes the needed calculations.
 	 */
 	public static Map<Integer, Map> szamolj() throws TransformerException, ParserConfigurationException, IOException, SAXException 
     {
@@ -68,20 +70,20 @@ public class Merge {
 		Node Nmerged = nodes.item(j);
 		Element Emerged = (Element) Nmerged;
         String nevmerged = Emerged.getAttribute("name");
-		System.out.println(nevoutput1);
-		System.out.println(nevmerged);
+        Logger.info(nevoutput1);
+		Logger.info(nevmerged);
 		
 		player.put("name", nevmerged);
 
 		if(nevoutput1.equals(nevmerged))
 		{
-			System.out.println("______________takarmany");
+			Logger.info("Everything works, player 1 is merged.");
 			elsonem = 1;
 			String frommerged = Emerged.getElementsByTagName("matcheswon").item(0).getTextContent();
 			String fromoutput = Eoutput1.getElementsByTagName("matcheswon").item(0).getTextContent();
 			int Itogether = Integer.parseInt(fromoutput) + Integer.parseInt(frommerged);
 			String Stogether = Integer.toString(Itogether);
-			System.out.println(Stogether);
+			Logger.info(Stogether);
 			Emerged.getElementsByTagName("matcheswon").item(0).setTextContent(Stogether);
 			player.put("matcheswon", Stogether);
 			
@@ -119,7 +121,7 @@ public class Merge {
 		}
 			else 
 			{
-				System.out.println("--------------------megvagy");
+				Logger.info("Not the same player. Search continues.");
 			}
 		scores.put(j, player);
 	}
@@ -138,18 +140,18 @@ public class Merge {
 		Node Nmerged = nodes.item(j);
 		Element Emerged = (Element) Nmerged;
         String nevmerged = Emerged.getAttribute("name");
-		System.out.println(nevoutput2);
-		System.out.println(nevmerged);
+		Logger.info(nevoutput2);
+		Logger.info(nevmerged);
 		
 		if(nevoutput2.equals(nevmerged))
 		{
-			System.out.println("______________takarmany");
+			Logger.info("Everything works, player 2 is merged.");
 			masodiknem = 1;
 			String frommerged = Emerged.getElementsByTagName("matcheswon").item(0).getTextContent();
 			String fromoutput = Eoutput2.getElementsByTagName("matcheswon").item(0).getTextContent();
 			int Itogether = Integer.parseInt(fromoutput) + Integer.parseInt(frommerged);
 			String Stogether = Integer.toString(Itogether);
-			System.out.println(Stogether);
+			Logger.info(Stogether);
 			Emerged.getElementsByTagName("matcheswon").item(0).setTextContent(Stogether);
 			
 			frommerged = Emerged.getElementsByTagName("matchesplayed").item(0).getTextContent();
@@ -183,7 +185,7 @@ public class Merge {
 		}
 			else 
 			{
-				System.out.println("--------------------megvagy");
+				Logger.info("Not the same player. Search continues.");
 			}
 	}
 
@@ -202,9 +204,9 @@ public class Merge {
 		nodes.item(1).getParentNode().appendChild(n);
 	}
 
-	System.out.println(elsonem);
-	System.out.println(masodiknem);
-		
+	Logger.info(elsonem);
+	Logger.info(masodiknem);
+
 
 	Transformer transformer = TransformerFactory.newInstance().newTransformer();  
 	transformer.setOutputProperty(OutputKeys.INDENT, "yes");  
@@ -218,25 +220,8 @@ public class Merge {
 	String xmlOutput = result.getWriter().toString();  
 	output.write(xmlOutput);
 	output.close();
-	System.out.println("merge complete");
-	
-	
+	Logger.info("The merge is completed. The database is up-to-date");
+
 	return scores;
     }
-
-//	String probalunk = Emerged.getElementsByTagName("matchesplayed").item(0).getTextContent();
-//	if (probalunk.equalsIgnoreCase("3"))
-//	{
-//		Itogether += 7;
-//	}
-//
-// 
-//	public String hajatszott(String n)
-//	{
-//		Node Nmerged = nodes.item(j);
-//		Element Emerged = (Element) Nmerged;
-//		String probalunk = Emerged.getElementsByTagName("matchesplayed").item(0).getTextContent();
-//		String asd = "0";
-//		return asd; 
-//	}
 }

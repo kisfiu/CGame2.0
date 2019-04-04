@@ -11,6 +11,9 @@ import org.w3c.dom.Node;
 import org.w3c.dom.Element;
 import java.io.File;
 
+import org.pmw.tinylog.Logger;
+
+
 
 /**
  * It is for the testing. How the xml database compares the players.
@@ -37,41 +40,34 @@ public class ReadXMLFile {
 			//read this - http://stackoverflow.com/questions/13786607/normalization-in-dom-parsing-with-java-how-does-it-work
 			doc.getDocumentElement().normalize();
 
-			System.out.println("Root element :" + doc.getDocumentElement().getNodeName());
+			Logger.info("Root element :" + doc.getDocumentElement().getNodeName());
 
 			NodeList nList = doc.getElementsByTagName("player");
 
-			System.out.println("----------------------------");
+			Logger.info("----------------------------");
 
 			for (int temp = 0; temp < nList.getLength(); temp++)
 			{
 				Node nNode = nList.item(temp);
-				System.out.println("\nCurrent Element :" + nNode.getNodeName());
+				Logger.info("\nCurrent Element :" + nNode.getNodeName());
 				if (nNode.getNodeType() == Node.ELEMENT_NODE)
 				{
 					Element eElement = (Element) nNode;
 					String neve = eElement.getAttribute("name");
 					if (neve.equals(neve1))
 					{
-						System.out.println("\n" + "ezmárvolt" + "\n");
+						Logger.info("\n" + "It was already used." + "\n");
 					}
 
 					String pontja = eElement.getElementsByTagName("points").item(0).getTextContent();
-					System.out.println(pontja);
-
-			//	if(pontja == )
-			//
-			//	System.out.println("Player Name : " + eElement.getAttribute("name"));
-			//	System.out.println("Matches played : " + eElement.getElementsByTagName("matchesplayed").item(0).getTextContent());
-			//	System.out.println("Matches won : " + eElement.getElementsByTagName("matcheswon").item(0).getTextContent());
-			//	System.out.println("Matches draw : " + eElement.getElementsByTagName("matchesdraw").item(0).getTextContent());
-			//	System.out.println("Points : " + eElement.getElementsByTagName("points").item(0).getTextContent());
+					Logger.info(pontja);
 				}
 			}
     	}
 		catch (Exception e)
 		{
 			e.printStackTrace();
+			Logger.error("BAMM", e);
     	}
   	}
 }

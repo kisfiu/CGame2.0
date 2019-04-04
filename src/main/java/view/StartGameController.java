@@ -20,6 +20,9 @@ import javax.xml.transform.TransformerException;
 
 import controller.MainApp;
 
+import org.pmw.tinylog.Logger;
+
+
 
 /**
  * Controller for the StartGame.fxml, the game's starting page.

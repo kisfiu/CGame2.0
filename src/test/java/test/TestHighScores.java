@@ -14,6 +14,9 @@ import org.xml.sax.SAXException;
 import model.Merge;
 import view.ToplistController;
 
+import org.pmw.tinylog.Logger;
+
+
 public class TestHighScores {
 
 	@Test

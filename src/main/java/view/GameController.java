@@ -24,6 +24,8 @@ import org.xml.sax.SAXException;
 
 import controller.MainApp;
 
+import org.pmw.tinylog.Logger;
+
 
 /**
  * Controller for the Game.fxml

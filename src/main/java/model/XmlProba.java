@@ -17,6 +17,9 @@ import org.w3c.dom.NodeList;
 
 import javafx.scene.text.Text;
 
+import org.pmw.tinylog.Logger;
+
+
 /**
  *
  * @author kisfiu
@@ -84,7 +87,7 @@ public class XmlProba {
 //        points.setTextContent(pontos1);
      
         int pontok1;
-        System.out.println(matcheswon1.getTextContent()); 
+        Logger.info(matcheswon1.getTextContent());
         if(Integer.parseInt(matcheswon1.getTextContent()) != 0 || Integer.parseInt(matchesdraw1.getTextContent()) != 0)
         {
            pontok1 = (Integer.parseInt(matcheswon1.getTextContent()) * 5 + Integer.parseInt(matchesdraw1.getTextContent()) * 3);
@@ -135,7 +138,7 @@ public class XmlProba {
         player2.appendChild(points2);
         
         int pontok2;
-        System.out.println(matcheswon2.getTextContent()); 
+        Logger.info(matcheswon2.getTextContent());
         if(Integer.parseInt(matcheswon2.getTextContent()) != 0 || Integer.parseInt(matchesdraw2.getTextContent()) != 0)
         {
            pontok2 = (Integer.parseInt(matcheswon2.getTextContent()) * 5 + Integer.parseInt(matchesdraw2.getTextContent()) * 3);
@@ -151,15 +154,15 @@ public class XmlProba {
         String pontokk2 = Integer.toString(pontok2);
         points2.setTextContent(pontokk2);
 
-        
-        
-        System.out.println(asd1);
-        System.out.println(asd2);
-        System.out.println(pontos1);
-        System.out.println(pontos2);
-        System.out.println(nyertes1);
-        System.out.println(nyertes2);
-        System.out.println(matcheswon1.getTextContent());
+
+
+        Logger.info(asd1);
+        Logger.info(asd2);
+        Logger.info(pontos1);
+        Logger.info(pontos2);
+        Logger.info(nyertes1);
+        Logger.info(nyertes2);
+        Logger.info(matcheswon1.getTextContent());
  
         
 

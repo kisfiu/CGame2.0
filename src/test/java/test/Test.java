@@ -13,6 +13,9 @@ import org.custommonkey.xmlunit.Difference;
 import org.custommonkey.xmlunit.XMLUnit;
 import org.xml.sax.SAXException;
 
+import org.pmw.tinylog.Logger;
+
+
 
 public class Test {
  
