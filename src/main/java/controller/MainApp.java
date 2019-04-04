@@ -16,7 +16,7 @@ import org.pmw.tinylog.Logger;
 public class MainApp extends Application {
     private Stage primaryStage;
     private AnchorPane menu;
-
+    
     @Override
     public void start(Stage primaryStage) {
         this.primaryStage = primaryStage;
@@ -46,7 +46,7 @@ public class MainApp extends Application {
         }
         catch (IOException e) {
             e.printStackTrace();
-            Logger.error("BAMM", e);
+            Logger.error("BAMM Exception :: ", e);
         }
     }
 

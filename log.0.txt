@@ -1,6 +1,0 @@
-2019-04-04 14:42:35 [JavaFX Application Thread] controller.MainApp.showmenu()
-INFO: My first log entry
-2019-04-04 14:42:35 [JavaFX Application Thread] controller.MainApp.showmenu()
-INFO: asd
-2019-04-04 14:42:35 [JavaFX Application Thread] controller.MainApp.showmenu()
-WARNING: mivanmivanmivan
