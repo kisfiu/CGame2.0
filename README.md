@@ -5,7 +5,7 @@
  Game Description
 ==================
 
-Is a game based on logic and strategy for two. The goal is simple, just collect your buttons! 
+It's a game based on logic and strategy for two. The goal is simple, just collect your buttons! 
 
 The field is made of 7x7 (49) buttons (buttons):
 	- 10 blue

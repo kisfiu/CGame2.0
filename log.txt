@@ -1,4 +1,22 @@
-2019-04-04 17:01:32 [JavaFX Application Thread] controller.MainApp.showmenu()
+2019-04-04 18:30:56 [JavaFX Application Thread] controller.MainApp.showmenu()
 INFO: My first log entry
-2019-04-04 17:01:32 [JavaFX Application Thread] controller.MainApp.showmenu()
+2019-04-04 18:30:56 [JavaFX Application Thread] controller.MainApp.showmenu()
 WARNING: Test warning.
+2019-04-04 18:31:38 [JavaFX Application Thread] model.XmlProba.main()
+INFO: 0
+2019-04-04 18:31:38 [JavaFX Application Thread] model.XmlProba.main()
+INFO: 0
+2019-04-04 18:31:38 [JavaFX Application Thread] model.XmlProba.main()
+INFO: wdfsefsef
+2019-04-04 18:31:38 [JavaFX Application Thread] model.XmlProba.main()
+INFO: sefsef
+2019-04-04 18:31:38 [JavaFX Application Thread] model.XmlProba.main()
+INFO: 0
+2019-04-04 18:31:38 [JavaFX Application Thread] model.XmlProba.main()
+INFO: 0
+2019-04-04 18:31:38 [JavaFX Application Thread] model.XmlProba.main()
+INFO: 0
+2019-04-04 18:31:38 [JavaFX Application Thread] model.XmlProba.main()
+INFO: 0
+2019-04-04 18:31:38 [JavaFX Application Thread] model.XmlProba.main()
+INFO: 0

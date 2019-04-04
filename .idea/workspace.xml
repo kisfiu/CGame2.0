@@ -2,9 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fcdcc78e-3ac8-4d92-aa90-642697a7441a" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log.0.txt" beforeDir="false" afterPath="$PROJECT_DIR$/log.0.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/log.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/alap.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/alap.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/model/merged.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/merged.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/rules.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/rules.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/start.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/start.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/alap.png" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/alap.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/controller/MainApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/controller/MainApp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/rules.png" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/rules.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-test.TestHighScores.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-test.TestHighScores.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/test.TestHighScores.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/test.TestHighScores.txt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -32,7 +41,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/controller/MainApp.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="170">
-              <caret line="18" column="4" lean-forward="true" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="4" />
+              <caret line="18" column="4" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="4" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -53,7 +62,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/model/XmlProba.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="1125">
-              <caret line="75" column="54" lean-forward="true" selection-start-line="75" selection-start-column="54" selection-end-line="75" selection-end-column="54" />
+              <caret line="75" column="54" selection-start-line="75" selection-start-column="54" selection-end-line="75" selection-end-column="54" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -83,7 +92,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/view/GameController.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-1335">
-              <caret line="73" column="38" lean-forward="true" selection-start-line="73" selection-start-column="38" selection-end-line="73" selection-end-column="38" />
+              <caret line="73" column="38" selection-start-line="73" selection-start-column="38" selection-end-line="73" selection-end-column="38" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -277,7 +286,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554394611679" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554395516716" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../../SZAKDOLGOZAT/szaki" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -346,18 +355,17 @@
       <workItem from="1554229576827" duration="8585000" />
       <workItem from="1554293280272" duration="1296000" />
       <workItem from="1554294767596" duration="9423000" />
-      <workItem from="1554373323806" duration="12433000" />
+      <workItem from="1554373323806" duration="13258000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="42824000" />
+    <option name="totallyTimeSpent" value="43649000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1985" y="-4" width="1855" height="1084" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1580984" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1580984" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -372,7 +380,7 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.22884013" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.43887147" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="10" />
@@ -470,7 +478,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/controller/MainApp.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
-          <caret line="18" column="4" lean-forward="true" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="4" />
+          <caret line="18" column="4" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="4" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -497,7 +505,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/view/GameController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1335">
-          <caret line="73" column="38" lean-forward="true" selection-start-line="73" selection-start-column="38" selection-end-line="73" selection-end-column="38" />
+          <caret line="73" column="38" selection-start-line="73" selection-start-column="38" selection-end-line="73" selection-end-column="38" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -534,7 +542,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/model/XmlProba.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1125">
-          <caret line="75" column="54" lean-forward="true" selection-start-line="75" selection-start-column="54" selection-end-line="75" selection-end-column="54" />
+          <caret line="75" column="54" selection-start-line="75" selection-start-column="54" selection-end-line="75" selection-end-column="54" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

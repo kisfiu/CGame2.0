@@ -1,0 +1,4 @@
+2019-04-04 17:01:32 [JavaFX Application Thread] controller.MainApp.showmenu()
+INFO: My first log entry
+2019-04-04 17:01:32 [JavaFX Application Thread] controller.MainApp.showmenu()
+WARNING: Test warning.
