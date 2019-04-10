@@ -31,62 +31,100 @@ import org.pmw.tinylog.Logger;
  * Controller for the Game.fxml
  * How the players take turns according to the rules.
  */
-public class GameController
-{
-	@FXML	private Button button00; @FXML  private Button button01;
-	@FXML	private Button button02; @FXML 	private Button button03;
-	@FXML 	private Button button04; @FXML 	private Button button05;
-	@FXML 	private Button button06; 
-	@FXML	private Button button10; @FXML  private Button button11;
-	@FXML	private Button button12; @FXML 	private Button button13;
-	@FXML 	private Button button14; @FXML 	private Button button15;
-	@FXML 	private Button button16;
-	@FXML	private Button button20; @FXML  private Button button21;
-	@FXML	private Button button22; @FXML 	private Button button23;
-	@FXML 	private Button button24; @FXML 	private Button button25;
-	@FXML 	private Button button26;
-	@FXML	private Button button30; @FXML  private Button button31;
-	@FXML	private Button button32; @FXML 	private Button button33;
-	@FXML 	private Button button34; @FXML 	private Button button35;
-	@FXML 	private Button button36;
-	@FXML	private Button button40; @FXML  private Button button41;
-	@FXML	private Button button42; @FXML 	private Button button43;
-	@FXML 	private Button button44; @FXML 	private Button button45;
-	@FXML 	private Button button46;
-	@FXML	private Button button50; @FXML  private Button button51;
-	@FXML	private Button button52; @FXML 	private Button button53;
-	@FXML 	private Button button54; @FXML 	private Button button55;
-	@FXML 	private Button button56;
-	@FXML	private Button button60; @FXML  private Button button61;
-	@FXML	private Button button62; @FXML 	private Button button63;
-	@FXML 	private Button button64; @FXML 	private Button button65;
-	@FXML 	private Button button66;
-	
-	//go back button
+public class GameController {
+	/**
+	 * Buttons to create the game's field.
+	 */
+	@FXML	private Button button00; @FXML  private Button button01; @FXML	private Button button02; @FXML 	private Button button03; @FXML 	private Button button04; @FXML 	private Button button05; @FXML 	private Button button06;
+	/**
+	 * Buttons to create the game's field.
+	 */
+	@FXML	private Button button10; @FXML  private Button button11; @FXML	private Button button12; @FXML 	private Button button13; @FXML 	private Button button14; @FXML 	private Button button15; @FXML 	private Button button16;
+	/**
+	 * Buttons to create the game's field.
+	 */
+	@FXML	private Button button20; @FXML  private Button button21; @FXML	private Button button22; @FXML 	private Button button23; @FXML 	private Button button24; @FXML 	private Button button25; @FXML 	private Button button26;
+	/**
+	 * Buttons to create the game's field.
+	 */
+	@FXML	private Button button30; @FXML  private Button button31; @FXML	private Button button32; @FXML 	private Button button33; @FXML 	private Button button34; @FXML 	private Button button35; @FXML 	private Button button36;
+	/**
+	 * Buttons to create the game's field.
+	 */
+	@FXML	private Button button40; @FXML  private Button button41; @FXML	private Button button42; @FXML 	private Button button43; @FXML 	private Button button44; @FXML 	private Button button45; @FXML 	private Button button46;
+	/**
+	 * Buttons to create the game's field.
+	 */
+	@FXML	private Button button50; @FXML  private Button button51; @FXML	private Button button52; @FXML 	private Button button53; @FXML 	private Button button54; @FXML 	private Button button55; @FXML 	private Button button56;
+	/**
+	 * Buttons to create the game's field.
+	 */
+	@FXML	private Button button60; @FXML  private Button button61; @FXML	private Button button62; @FXML 	private Button button63; @FXML 	private Button button64; @FXML 	private Button button65; @FXML 	private Button button66;
+
+	/**
+	 * Go back button.
+	 */
 	@FXML
 	private Button backbutton;
-	@FXML
-	private void goback(ActionEvent event) throws IOException
 
-	{		
-		Node node=(Node) event.getSource();
-		Stage stage=(Stage) node.getScene().getWindow();
+	/**
+	 * Handles the back button, on click the StartGame screen.
+	 * @param event is an action event for the button.
+	 * @throws IOException if the input is not right.
+	 */
+	@FXML
+	private void goback(final ActionEvent event) throws IOException {
+		Node node = (Node) event.getSource();
+		Stage stage = (Stage) node.getScene().getWindow();
 		Parent root = FXMLLoader.load(getClass().getResource("/StartGame.fxml"));
 		Scene scene = new Scene(root);
 		stage.setScene(scene);
 		stage.show();
 		Logger.info("Back button");
 	}
-	
+
+	/**
+	 * Player one's label.
+	 */
 	@FXML
 	private Label playeronelabel;
-	public void setName(String playeronetext)    {playeronelabel.setText(playeronetext);}
+
+	/**
+	 * Sets the label according to the first player.
+	 * @param playeronetext player one's name.
+	 */
+	public final void setName(final String playeronetext) {
+		playeronelabel.setText(playeronetext);
+	}
+
+	/**
+	 * Player two's label
+	 */
 	@FXML
 	private Label playertwolabel;
-	public void ssetName(String playertwotext)    {playertwolabel.setText(playertwotext);}
+
+	/**
+	 * Sets the label according to the second player.
+	 * @param playertwotext player one's name.
+	 */
+	public void ssetName(String playertwotext) {
+		playertwolabel.setText(playertwotext);
+	}
+
+	/**
+	 * Label for the steps.
+	 */
 	@FXML Label lepeslabel;
+
+	/**
+	 * Label for the first player's points.
+	 */
 	@FXML
 	private Label onepointslabel;
+
+	/**
+	 * Label for the second player's points.
+	 */
 	@FXML
 	private Label twopointslabel;
 
@@ -107,7 +145,7 @@ public class GameController
 	}
 
 	/**
-	 * It changes the color of the circles that the player on turn can choose
+	 * It changes the color of the circles that the player on turn can choose.
 	 */
 	void szinezzunk(Node node)
 	{
@@ -415,12 +453,12 @@ public class GameController
 					/**
 					 * Gives the data to the XmlProda.java so it can make the database.
 					 */
-					XmlProba.setpontok1(player1pontok);
-					XmlProba.setpontok2(player2pontok);
-					XmlProba.setnyertes1(player1nyertes);
-					XmlProba.setnyertes2(player2nyertes);
-					XmlProba.setdraw1(player1draw);
-					XmlProba.setdraw2(player2draw);
+					XmlProba.setPoints1(player1pontok);
+					XmlProba.setPoints2(player2pontok);
+					XmlProba.setWins1(player1nyertes);
+					XmlProba.setWins2(player2nyertes);
+					XmlProba.setDraws1(player1draw);
+					XmlProba.setDraws2(player2draw);
 
 					/**
 					 * Data for ReadXMLFile.java
@@ -441,7 +479,7 @@ public class GameController
 					/**
 					 * Merging the two xml files to create the database.
 					 */
-					Merge.szamolj();
+					Merge.calculate();
 
 					}
 

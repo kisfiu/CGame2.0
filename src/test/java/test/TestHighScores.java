@@ -12,16 +12,13 @@ import org.junit.Test;
 import org.xml.sax.SAXException;
 
 import model.Merge;
-import view.ToplistController;
-
-import org.pmw.tinylog.Logger;
 
 
 public class TestHighScores {
 
 	@Test
 	public void playersNotNull() throws TransformerException, ParserConfigurationException, IOException, SAXException {
-		Map<Integer, Map> playersWithScores = Merge.szamolj();
+		Map<Integer, Map> playersWithScores = Merge.calculate();
 		
 		assertNotEquals(null, playersWithScores.get(0).get("name"));
 	}

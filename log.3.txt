@@ -1,428 +1,452 @@
-2019-04-10 17:21:10 [main] model.Merge.szamolj()
+2019-04-10 19:20:35 [main] model.Merge.calculate()
 INFO: The first player is
-2019-04-10 17:21:10 [main] model.Merge.szamolj()
+2019-04-10 19:20:35 [main] model.Merge.calculate()
 INFO: Merged player
-2019-04-10 17:21:10 [main] model.Merge.szamolj()
+2019-04-10 19:20:35 [main] model.Merge.calculate()
 INFO: Not the same player. Search continues.
-2019-04-10 17:21:10 [main] model.Merge.szamolj()
+2019-04-10 19:20:35 [main] model.Merge.calculate()
 INFO: The first player is
-2019-04-10 17:21:10 [main] model.Merge.szamolj()
+2019-04-10 19:20:35 [main] model.Merge.calculate()
 INFO: Merged player
-2019-04-10 17:21:10 [main] model.Merge.szamolj()
+2019-04-10 19:20:35 [main] model.Merge.calculate()
 INFO: Not the same player. Search continues.
-2019-04-10 17:21:10 [main] model.Merge.szamolj()
+2019-04-10 19:20:35 [main] model.Merge.calculate()
 INFO: The first player is
-2019-04-10 17:21:10 [main] model.Merge.szamolj()
+2019-04-10 19:20:35 [main] model.Merge.calculate()
 INFO: Merged player
-2019-04-10 17:21:10 [main] model.Merge.szamolj()
+2019-04-10 19:20:35 [main] model.Merge.calculate()
 INFO: Not the same player. Search continues.
-2019-04-10 17:21:10 [main] model.Merge.szamolj()
+2019-04-10 19:20:35 [main] model.Merge.calculate()
 INFO: The first player is
-2019-04-10 17:21:10 [main] model.Merge.szamolj()
+2019-04-10 19:20:35 [main] model.Merge.calculate()
 INFO: Merged player
-2019-04-10 17:21:10 [main] model.Merge.szamolj()
+2019-04-10 19:20:35 [main] model.Merge.calculate()
 INFO: Not the same player. Search continues.
-2019-04-10 17:21:10 [main] model.Merge.szamolj()
+2019-04-10 19:20:35 [main] model.Merge.calculate()
 INFO: The first player is
-2019-04-10 17:21:10 [main] model.Merge.szamolj()
+2019-04-10 19:20:35 [main] model.Merge.calculate()
 INFO: Merged player
-2019-04-10 17:21:10 [main] model.Merge.szamolj()
+2019-04-10 19:20:35 [main] model.Merge.calculate()
 INFO: Not the same player. Search continues.
-2019-04-10 17:21:10 [main] model.Merge.szamolj()
+2019-04-10 19:20:35 [main] model.Merge.calculate()
 INFO: The first player is
-2019-04-10 17:21:10 [main] model.Merge.szamolj()
+2019-04-10 19:20:35 [main] model.Merge.calculate()
 INFO: Merged player
-2019-04-10 17:21:10 [main] model.Merge.szamolj()
+2019-04-10 19:20:35 [main] model.Merge.calculate()
 INFO: Not the same player. Search continues.
-2019-04-10 17:21:10 [main] model.Merge.szamolj()
+2019-04-10 19:20:35 [main] model.Merge.calculate()
 INFO: The first player is
-2019-04-10 17:21:10 [main] model.Merge.szamolj()
+2019-04-10 19:20:35 [main] model.Merge.calculate()
 INFO: Merged player
-2019-04-10 17:21:10 [main] model.Merge.szamolj()
+2019-04-10 19:20:35 [main] model.Merge.calculate()
 INFO: Not the same player. Search continues.
-2019-04-10 17:21:10 [main] model.Merge.szamolj()
+2019-04-10 19:20:35 [main] model.Merge.calculate()
 INFO: The first player is
-2019-04-10 17:21:10 [main] model.Merge.szamolj()
+2019-04-10 19:20:35 [main] model.Merge.calculate()
 INFO: Merged player
-2019-04-10 17:21:10 [main] model.Merge.szamolj()
+2019-04-10 19:20:35 [main] model.Merge.calculate()
 INFO: Not the same player. Search continues.
-2019-04-10 17:21:10 [main] model.Merge.szamolj()
+2019-04-10 19:20:35 [main] model.Merge.calculate()
 INFO: The first player is
-2019-04-10 17:21:10 [main] model.Merge.szamolj()
+2019-04-10 19:20:35 [main] model.Merge.calculate()
 INFO: Merged player
-2019-04-10 17:21:10 [main] model.Merge.szamolj()
+2019-04-10 19:20:35 [main] model.Merge.calculate()
 INFO: Not the same player. Search continues.
-2019-04-10 17:21:10 [main] model.Merge.szamolj()
+2019-04-10 19:20:35 [main] model.Merge.calculate()
 INFO: The first player is
-2019-04-10 17:21:10 [main] model.Merge.szamolj()
+2019-04-10 19:20:35 [main] model.Merge.calculate()
 INFO: Merged player
-2019-04-10 17:21:10 [main] model.Merge.szamolj()
+2019-04-10 19:20:35 [main] model.Merge.calculate()
 INFO: Not the same player. Search continues.
-2019-04-10 17:21:10 [main] model.Merge.szamolj()
+2019-04-10 19:20:35 [main] model.Merge.calculate()
 INFO: The first player is
-2019-04-10 17:21:10 [main] model.Merge.szamolj()
+2019-04-10 19:20:35 [main] model.Merge.calculate()
 INFO: Merged player
-2019-04-10 17:21:10 [main] model.Merge.szamolj()
+2019-04-10 19:20:35 [main] model.Merge.calculate()
 INFO: Not the same player. Search continues.
-2019-04-10 17:21:10 [main] model.Merge.szamolj()
+2019-04-10 19:20:35 [main] model.Merge.calculate()
 INFO: The first player is
-2019-04-10 17:21:10 [main] model.Merge.szamolj()
+2019-04-10 19:20:35 [main] model.Merge.calculate()
 INFO: Merged player
-2019-04-10 17:21:10 [main] model.Merge.szamolj()
+2019-04-10 19:20:35 [main] model.Merge.calculate()
 INFO: Not the same player. Search continues.
-2019-04-10 17:21:10 [main] model.Merge.szamolj()
+2019-04-10 19:20:35 [main] model.Merge.calculate()
 INFO: The first player is
-2019-04-10 17:21:10 [main] model.Merge.szamolj()
+2019-04-10 19:20:35 [main] model.Merge.calculate()
 INFO: Merged player
-2019-04-10 17:21:10 [main] model.Merge.szamolj()
+2019-04-10 19:20:35 [main] model.Merge.calculate()
 INFO: Not the same player. Search continues.
-2019-04-10 17:21:10 [main] model.Merge.szamolj()
+2019-04-10 19:20:35 [main] model.Merge.calculate()
 INFO: The first player is
-2019-04-10 17:21:10 [main] model.Merge.szamolj()
+2019-04-10 19:20:35 [main] model.Merge.calculate()
 INFO: Merged player
-2019-04-10 17:21:10 [main] model.Merge.szamolj()
+2019-04-10 19:20:35 [main] model.Merge.calculate()
 INFO: Not the same player. Search continues.
-2019-04-10 17:21:10 [main] model.Merge.szamolj()
+2019-04-10 19:20:35 [main] model.Merge.calculate()
 INFO: The first player is
-2019-04-10 17:21:10 [main] model.Merge.szamolj()
+2019-04-10 19:20:35 [main] model.Merge.calculate()
 INFO: Merged player
-2019-04-10 17:21:10 [main] model.Merge.szamolj()
+2019-04-10 19:20:35 [main] model.Merge.calculate()
 INFO: Not the same player. Search continues.
-2019-04-10 17:21:10 [main] model.Merge.szamolj()
+2019-04-10 19:20:35 [main] model.Merge.calculate()
 INFO: The first player is
-2019-04-10 17:21:10 [main] model.Merge.szamolj()
+2019-04-10 19:20:35 [main] model.Merge.calculate()
 INFO: Merged player
-2019-04-10 17:21:10 [main] model.Merge.szamolj()
+2019-04-10 19:20:35 [main] model.Merge.calculate()
 INFO: Not the same player. Search continues.
-2019-04-10 17:21:10 [main] model.Merge.szamolj()
+2019-04-10 19:20:35 [main] model.Merge.calculate()
 INFO: The first player is
-2019-04-10 17:21:10 [main] model.Merge.szamolj()
+2019-04-10 19:20:35 [main] model.Merge.calculate()
 INFO: Merged player
-2019-04-10 17:21:10 [main] model.Merge.szamolj()
+2019-04-10 19:20:35 [main] model.Merge.calculate()
 INFO: Not the same player. Search continues.
-2019-04-10 17:21:10 [main] model.Merge.szamolj()
+2019-04-10 19:20:35 [main] model.Merge.calculate()
 INFO: The first player is
-2019-04-10 17:21:10 [main] model.Merge.szamolj()
+2019-04-10 19:20:35 [main] model.Merge.calculate()
 INFO: Merged player
-2019-04-10 17:21:10 [main] model.Merge.szamolj()
+2019-04-10 19:20:35 [main] model.Merge.calculate()
 INFO: Not the same player. Search continues.
-2019-04-10 17:21:10 [main] model.Merge.szamolj()
+2019-04-10 19:20:35 [main] model.Merge.calculate()
 INFO: The first player is
-2019-04-10 17:21:10 [main] model.Merge.szamolj()
+2019-04-10 19:20:35 [main] model.Merge.calculate()
 INFO: Merged player
-2019-04-10 17:21:10 [main] model.Merge.szamolj()
+2019-04-10 19:20:35 [main] model.Merge.calculate()
 INFO: Not the same player. Search continues.
-2019-04-10 17:21:10 [main] model.Merge.szamolj()
+2019-04-10 19:20:35 [main] model.Merge.calculate()
 INFO: The first player is
-2019-04-10 17:21:10 [main] model.Merge.szamolj()
+2019-04-10 19:20:35 [main] model.Merge.calculate()
 INFO: Merged player
-2019-04-10 17:21:10 [main] model.Merge.szamolj()
+2019-04-10 19:20:35 [main] model.Merge.calculate()
 INFO: Not the same player. Search continues.
-2019-04-10 17:21:10 [main] model.Merge.szamolj()
+2019-04-10 19:20:35 [main] model.Merge.calculate()
 INFO: The first player is
-2019-04-10 17:21:10 [main] model.Merge.szamolj()
+2019-04-10 19:20:35 [main] model.Merge.calculate()
 INFO: Merged player
-2019-04-10 17:21:10 [main] model.Merge.szamolj()
+2019-04-10 19:20:35 [main] model.Merge.calculate()
 INFO: Not the same player. Search continues.
-2019-04-10 17:21:10 [main] model.Merge.szamolj()
+2019-04-10 19:20:35 [main] model.Merge.calculate()
 INFO: The first player is
-2019-04-10 17:21:10 [main] model.Merge.szamolj()
+2019-04-10 19:20:35 [main] model.Merge.calculate()
 INFO: Merged player
-2019-04-10 17:21:10 [main] model.Merge.szamolj()
+2019-04-10 19:20:35 [main] model.Merge.calculate()
 INFO: Not the same player. Search continues.
-2019-04-10 17:21:10 [main] model.Merge.szamolj()
+2019-04-10 19:20:35 [main] model.Merge.calculate()
 INFO: The first player is
-2019-04-10 17:21:10 [main] model.Merge.szamolj()
+2019-04-10 19:20:35 [main] model.Merge.calculate()
 INFO: Merged player
-2019-04-10 17:21:10 [main] model.Merge.szamolj()
+2019-04-10 19:20:35 [main] model.Merge.calculate()
 INFO: Not the same player. Search continues.
-2019-04-10 17:21:10 [main] model.Merge.szamolj()
+2019-04-10 19:20:35 [main] model.Merge.calculate()
 INFO: The first player is
-2019-04-10 17:21:10 [main] model.Merge.szamolj()
+2019-04-10 19:20:35 [main] model.Merge.calculate()
 INFO: Merged player
-2019-04-10 17:21:10 [main] model.Merge.szamolj()
+2019-04-10 19:20:35 [main] model.Merge.calculate()
 INFO: Not the same player. Search continues.
-2019-04-10 17:21:10 [main] model.Merge.szamolj()
+2019-04-10 19:20:35 [main] model.Merge.calculate()
 INFO: The first player is
-2019-04-10 17:21:10 [main] model.Merge.szamolj()
+2019-04-10 19:20:35 [main] model.Merge.calculate()
 INFO: Merged player
-2019-04-10 17:21:10 [main] model.Merge.szamolj()
+2019-04-10 19:20:35 [main] model.Merge.calculate()
 INFO: Not the same player. Search continues.
-2019-04-10 17:21:10 [main] model.Merge.szamolj()
+2019-04-10 19:20:35 [main] model.Merge.calculate()
 INFO: The first player is
-2019-04-10 17:21:10 [main] model.Merge.szamolj()
+2019-04-10 19:20:35 [main] model.Merge.calculate()
 INFO: Merged player
-2019-04-10 17:21:10 [main] model.Merge.szamolj()
+2019-04-10 19:20:35 [main] model.Merge.calculate()
 INFO: Not the same player. Search continues.
-2019-04-10 17:21:10 [main] model.Merge.szamolj()
+2019-04-10 19:20:35 [main] model.Merge.calculate()
 INFO: The first player is
-2019-04-10 17:21:10 [main] model.Merge.szamolj()
+2019-04-10 19:20:35 [main] model.Merge.calculate()
 INFO: Merged player
-2019-04-10 17:21:10 [main] model.Merge.szamolj()
+2019-04-10 19:20:35 [main] model.Merge.calculate()
 INFO: Not the same player. Search continues.
-2019-04-10 17:21:10 [main] model.Merge.szamolj()
+2019-04-10 19:20:35 [main] model.Merge.calculate()
 INFO: The first player is
-2019-04-10 17:21:10 [main] model.Merge.szamolj()
+2019-04-10 19:20:35 [main] model.Merge.calculate()
 INFO: Merged player
-2019-04-10 17:21:10 [main] model.Merge.szamolj()
+2019-04-10 19:20:35 [main] model.Merge.calculate()
 INFO: Not the same player. Search continues.
-2019-04-10 17:21:10 [main] model.Merge.szamolj()
+2019-04-10 19:20:35 [main] model.Merge.calculate()
 INFO: The first player is
-2019-04-10 17:21:10 [main] model.Merge.szamolj()
+2019-04-10 19:20:35 [main] model.Merge.calculate()
 INFO: Merged player
-2019-04-10 17:21:10 [main] model.Merge.szamolj()
+2019-04-10 19:20:35 [main] model.Merge.calculate()
 INFO: Not the same player. Search continues.
-2019-04-10 17:21:10 [main] model.Merge.szamolj()
+2019-04-10 19:20:35 [main] model.Merge.calculate()
 INFO: The first player is
-2019-04-10 17:21:10 [main] model.Merge.szamolj()
+2019-04-10 19:20:35 [main] model.Merge.calculate()
 INFO: Merged player
-2019-04-10 17:21:10 [main] model.Merge.szamolj()
+2019-04-10 19:20:35 [main] model.Merge.calculate()
 INFO: Not the same player. Search continues.
-2019-04-10 17:21:10 [main] model.Merge.szamolj()
+2019-04-10 19:20:35 [main] model.Merge.calculate()
 INFO: The first player is
-2019-04-10 17:21:10 [main] model.Merge.szamolj()
+2019-04-10 19:20:35 [main] model.Merge.calculate()
 INFO: Merged player
-2019-04-10 17:21:10 [main] model.Merge.szamolj()
+2019-04-10 19:20:35 [main] model.Merge.calculate()
 INFO: Not the same player. Search continues.
-2019-04-10 17:21:10 [main] model.Merge.szamolj()
+2019-04-10 19:20:35 [main] model.Merge.calculate()
 INFO: The first player is
-2019-04-10 17:21:10 [main] model.Merge.szamolj()
+2019-04-10 19:20:35 [main] model.Merge.calculate()
 INFO: Merged player
-2019-04-10 17:21:10 [main] model.Merge.szamolj()
+2019-04-10 19:20:35 [main] model.Merge.calculate()
 INFO: Not the same player. Search continues.
-2019-04-10 17:21:10 [main] model.Merge.szamolj()
+2019-04-10 19:20:35 [main] model.Merge.calculate()
 INFO: The first player is
-2019-04-10 17:21:10 [main] model.Merge.szamolj()
+2019-04-10 19:20:35 [main] model.Merge.calculate()
 INFO: Merged player
-2019-04-10 17:21:10 [main] model.Merge.szamolj()
+2019-04-10 19:20:35 [main] model.Merge.calculate()
 INFO: Not the same player. Search continues.
-2019-04-10 17:21:10 [main] model.Merge.szamolj()
+2019-04-10 19:20:35 [main] model.Merge.calculate()
 INFO: The first player is
-2019-04-10 17:21:10 [main] model.Merge.szamolj()
+2019-04-10 19:20:35 [main] model.Merge.calculate()
 INFO: Merged player
-2019-04-10 17:21:10 [main] model.Merge.szamolj()
+2019-04-10 19:20:35 [main] model.Merge.calculate()
+INFO: Not the same player. Search continues.
+2019-04-10 19:20:35 [main] model.Merge.calculate()
+INFO: The first player is
+2019-04-10 19:20:35 [main] model.Merge.calculate()
+INFO: Merged player
+2019-04-10 19:20:35 [main] model.Merge.calculate()
+INFO: Not the same player. Search continues.
+2019-04-10 19:20:35 [main] model.Merge.calculate()
+INFO: The first player is
+2019-04-10 19:20:35 [main] model.Merge.calculate()
+INFO: Merged player
+2019-04-10 19:20:35 [main] model.Merge.calculate()
 INFO: Everything works, player 1 is merged.
-2019-04-10 17:21:10 [main] model.Merge.szamolj()
+2019-04-10 19:20:35 [main] model.Merge.calculate()
 INFO: 0
-2019-04-10 17:21:10 [main] model.Merge.szamolj()
+2019-04-10 19:20:35 [main] model.Merge.calculate()
 INFO: Player 1's points are calculated
-2019-04-10 17:21:10 [main] model.Merge.szamolj()
+2019-04-10 19:20:35 [main] model.Merge.calculate()
 INFO: Player 2 is:
-2019-04-10 17:21:10 [main] model.Merge.szamolj()
+2019-04-10 19:20:35 [main] model.Merge.calculate()
 INFO: Merged player is:
-2019-04-10 17:21:10 [main] model.Merge.szamolj()
+2019-04-10 19:20:35 [main] model.Merge.calculate()
 INFO: Not the same player. Search continues.
-2019-04-10 17:21:10 [main] model.Merge.szamolj()
+2019-04-10 19:20:35 [main] model.Merge.calculate()
 INFO: Player 2 is:
-2019-04-10 17:21:10 [main] model.Merge.szamolj()
+2019-04-10 19:20:35 [main] model.Merge.calculate()
 INFO: Merged player is:
-2019-04-10 17:21:10 [main] model.Merge.szamolj()
+2019-04-10 19:20:35 [main] model.Merge.calculate()
 INFO: Not the same player. Search continues.
-2019-04-10 17:21:10 [main] model.Merge.szamolj()
+2019-04-10 19:20:35 [main] model.Merge.calculate()
 INFO: Player 2 is:
-2019-04-10 17:21:10 [main] model.Merge.szamolj()
+2019-04-10 19:20:35 [main] model.Merge.calculate()
 INFO: Merged player is:
-2019-04-10 17:21:10 [main] model.Merge.szamolj()
+2019-04-10 19:20:35 [main] model.Merge.calculate()
 INFO: Not the same player. Search continues.
-2019-04-10 17:21:10 [main] model.Merge.szamolj()
+2019-04-10 19:20:35 [main] model.Merge.calculate()
 INFO: Player 2 is:
-2019-04-10 17:21:10 [main] model.Merge.szamolj()
+2019-04-10 19:20:35 [main] model.Merge.calculate()
 INFO: Merged player is:
-2019-04-10 17:21:10 [main] model.Merge.szamolj()
+2019-04-10 19:20:35 [main] model.Merge.calculate()
 INFO: Not the same player. Search continues.
-2019-04-10 17:21:10 [main] model.Merge.szamolj()
+2019-04-10 19:20:35 [main] model.Merge.calculate()
 INFO: Player 2 is:
-2019-04-10 17:21:10 [main] model.Merge.szamolj()
+2019-04-10 19:20:35 [main] model.Merge.calculate()
 INFO: Merged player is:
-2019-04-10 17:21:10 [main] model.Merge.szamolj()
+2019-04-10 19:20:35 [main] model.Merge.calculate()
 INFO: Not the same player. Search continues.
-2019-04-10 17:21:10 [main] model.Merge.szamolj()
+2019-04-10 19:20:35 [main] model.Merge.calculate()
 INFO: Player 2 is:
-2019-04-10 17:21:10 [main] model.Merge.szamolj()
+2019-04-10 19:20:35 [main] model.Merge.calculate()
 INFO: Merged player is:
-2019-04-10 17:21:10 [main] model.Merge.szamolj()
+2019-04-10 19:20:35 [main] model.Merge.calculate()
 INFO: Not the same player. Search continues.
-2019-04-10 17:21:10 [main] model.Merge.szamolj()
+2019-04-10 19:20:35 [main] model.Merge.calculate()
 INFO: Player 2 is:
-2019-04-10 17:21:10 [main] model.Merge.szamolj()
+2019-04-10 19:20:35 [main] model.Merge.calculate()
 INFO: Merged player is:
-2019-04-10 17:21:10 [main] model.Merge.szamolj()
+2019-04-10 19:20:35 [main] model.Merge.calculate()
 INFO: Not the same player. Search continues.
-2019-04-10 17:21:10 [main] model.Merge.szamolj()
+2019-04-10 19:20:35 [main] model.Merge.calculate()
 INFO: Player 2 is:
-2019-04-10 17:21:10 [main] model.Merge.szamolj()
+2019-04-10 19:20:35 [main] model.Merge.calculate()
 INFO: Merged player is:
-2019-04-10 17:21:10 [main] model.Merge.szamolj()
+2019-04-10 19:20:35 [main] model.Merge.calculate()
 INFO: Not the same player. Search continues.
-2019-04-10 17:21:10 [main] model.Merge.szamolj()
+2019-04-10 19:20:35 [main] model.Merge.calculate()
 INFO: Player 2 is:
-2019-04-10 17:21:10 [main] model.Merge.szamolj()
+2019-04-10 19:20:35 [main] model.Merge.calculate()
 INFO: Merged player is:
-2019-04-10 17:21:10 [main] model.Merge.szamolj()
+2019-04-10 19:20:35 [main] model.Merge.calculate()
 INFO: Not the same player. Search continues.
-2019-04-10 17:21:10 [main] model.Merge.szamolj()
+2019-04-10 19:20:35 [main] model.Merge.calculate()
 INFO: Player 2 is:
-2019-04-10 17:21:10 [main] model.Merge.szamolj()
+2019-04-10 19:20:35 [main] model.Merge.calculate()
 INFO: Merged player is:
-2019-04-10 17:21:10 [main] model.Merge.szamolj()
+2019-04-10 19:20:35 [main] model.Merge.calculate()
 INFO: Not the same player. Search continues.
-2019-04-10 17:21:10 [main] model.Merge.szamolj()
+2019-04-10 19:20:35 [main] model.Merge.calculate()
 INFO: Player 2 is:
-2019-04-10 17:21:10 [main] model.Merge.szamolj()
+2019-04-10 19:20:35 [main] model.Merge.calculate()
 INFO: Merged player is:
-2019-04-10 17:21:10 [main] model.Merge.szamolj()
+2019-04-10 19:20:35 [main] model.Merge.calculate()
 INFO: Not the same player. Search continues.
-2019-04-10 17:21:10 [main] model.Merge.szamolj()
+2019-04-10 19:20:35 [main] model.Merge.calculate()
 INFO: Player 2 is:
-2019-04-10 17:21:10 [main] model.Merge.szamolj()
+2019-04-10 19:20:35 [main] model.Merge.calculate()
 INFO: Merged player is:
-2019-04-10 17:21:10 [main] model.Merge.szamolj()
+2019-04-10 19:20:35 [main] model.Merge.calculate()
 INFO: Not the same player. Search continues.
-2019-04-10 17:21:10 [main] model.Merge.szamolj()
+2019-04-10 19:20:35 [main] model.Merge.calculate()
 INFO: Player 2 is:
-2019-04-10 17:21:10 [main] model.Merge.szamolj()
+2019-04-10 19:20:35 [main] model.Merge.calculate()
 INFO: Merged player is:
-2019-04-10 17:21:10 [main] model.Merge.szamolj()
+2019-04-10 19:20:35 [main] model.Merge.calculate()
 INFO: Not the same player. Search continues.
-2019-04-10 17:21:10 [main] model.Merge.szamolj()
+2019-04-10 19:20:35 [main] model.Merge.calculate()
 INFO: Player 2 is:
-2019-04-10 17:21:10 [main] model.Merge.szamolj()
+2019-04-10 19:20:35 [main] model.Merge.calculate()
 INFO: Merged player is:
-2019-04-10 17:21:10 [main] model.Merge.szamolj()
+2019-04-10 19:20:35 [main] model.Merge.calculate()
 INFO: Not the same player. Search continues.
-2019-04-10 17:21:10 [main] model.Merge.szamolj()
+2019-04-10 19:20:35 [main] model.Merge.calculate()
 INFO: Player 2 is:
-2019-04-10 17:21:10 [main] model.Merge.szamolj()
+2019-04-10 19:20:35 [main] model.Merge.calculate()
 INFO: Merged player is:
-2019-04-10 17:21:10 [main] model.Merge.szamolj()
+2019-04-10 19:20:35 [main] model.Merge.calculate()
 INFO: Not the same player. Search continues.
-2019-04-10 17:21:10 [main] model.Merge.szamolj()
+2019-04-10 19:20:35 [main] model.Merge.calculate()
 INFO: Player 2 is:
-2019-04-10 17:21:10 [main] model.Merge.szamolj()
+2019-04-10 19:20:35 [main] model.Merge.calculate()
 INFO: Merged player is:
-2019-04-10 17:21:10 [main] model.Merge.szamolj()
+2019-04-10 19:20:35 [main] model.Merge.calculate()
 INFO: Not the same player. Search continues.
-2019-04-10 17:21:10 [main] model.Merge.szamolj()
+2019-04-10 19:20:35 [main] model.Merge.calculate()
 INFO: Player 2 is:
-2019-04-10 17:21:10 [main] model.Merge.szamolj()
+2019-04-10 19:20:35 [main] model.Merge.calculate()
 INFO: Merged player is:
-2019-04-10 17:21:10 [main] model.Merge.szamolj()
+2019-04-10 19:20:35 [main] model.Merge.calculate()
 INFO: Not the same player. Search continues.
-2019-04-10 17:21:10 [main] model.Merge.szamolj()
+2019-04-10 19:20:35 [main] model.Merge.calculate()
 INFO: Player 2 is:
-2019-04-10 17:21:10 [main] model.Merge.szamolj()
+2019-04-10 19:20:35 [main] model.Merge.calculate()
 INFO: Merged player is:
-2019-04-10 17:21:10 [main] model.Merge.szamolj()
+2019-04-10 19:20:35 [main] model.Merge.calculate()
 INFO: Not the same player. Search continues.
-2019-04-10 17:21:10 [main] model.Merge.szamolj()
+2019-04-10 19:20:35 [main] model.Merge.calculate()
 INFO: Player 2 is:
-2019-04-10 17:21:10 [main] model.Merge.szamolj()
+2019-04-10 19:20:35 [main] model.Merge.calculate()
 INFO: Merged player is:
-2019-04-10 17:21:10 [main] model.Merge.szamolj()
+2019-04-10 19:20:35 [main] model.Merge.calculate()
 INFO: Not the same player. Search continues.
-2019-04-10 17:21:10 [main] model.Merge.szamolj()
+2019-04-10 19:20:35 [main] model.Merge.calculate()
 INFO: Player 2 is:
-2019-04-10 17:21:10 [main] model.Merge.szamolj()
+2019-04-10 19:20:35 [main] model.Merge.calculate()
 INFO: Merged player is:
-2019-04-10 17:21:10 [main] model.Merge.szamolj()
+2019-04-10 19:20:35 [main] model.Merge.calculate()
 INFO: Not the same player. Search continues.
-2019-04-10 17:21:10 [main] model.Merge.szamolj()
+2019-04-10 19:20:35 [main] model.Merge.calculate()
 INFO: Player 2 is:
-2019-04-10 17:21:10 [main] model.Merge.szamolj()
+2019-04-10 19:20:35 [main] model.Merge.calculate()
 INFO: Merged player is:
-2019-04-10 17:21:10 [main] model.Merge.szamolj()
+2019-04-10 19:20:35 [main] model.Merge.calculate()
 INFO: Not the same player. Search continues.
-2019-04-10 17:21:10 [main] model.Merge.szamolj()
+2019-04-10 19:20:35 [main] model.Merge.calculate()
 INFO: Player 2 is:
-2019-04-10 17:21:10 [main] model.Merge.szamolj()
+2019-04-10 19:20:35 [main] model.Merge.calculate()
 INFO: Merged player is:
-2019-04-10 17:21:10 [main] model.Merge.szamolj()
+2019-04-10 19:20:35 [main] model.Merge.calculate()
 INFO: Not the same player. Search continues.
-2019-04-10 17:21:10 [main] model.Merge.szamolj()
+2019-04-10 19:20:35 [main] model.Merge.calculate()
 INFO: Player 2 is:
-2019-04-10 17:21:10 [main] model.Merge.szamolj()
+2019-04-10 19:20:35 [main] model.Merge.calculate()
 INFO: Merged player is:
-2019-04-10 17:21:10 [main] model.Merge.szamolj()
+2019-04-10 19:20:35 [main] model.Merge.calculate()
 INFO: Not the same player. Search continues.
-2019-04-10 17:21:10 [main] model.Merge.szamolj()
+2019-04-10 19:20:35 [main] model.Merge.calculate()
 INFO: Player 2 is:
-2019-04-10 17:21:10 [main] model.Merge.szamolj()
+2019-04-10 19:20:35 [main] model.Merge.calculate()
 INFO: Merged player is:
-2019-04-10 17:21:10 [main] model.Merge.szamolj()
+2019-04-10 19:20:35 [main] model.Merge.calculate()
 INFO: Not the same player. Search continues.
-2019-04-10 17:21:10 [main] model.Merge.szamolj()
+2019-04-10 19:20:35 [main] model.Merge.calculate()
 INFO: Player 2 is:
-2019-04-10 17:21:10 [main] model.Merge.szamolj()
+2019-04-10 19:20:35 [main] model.Merge.calculate()
 INFO: Merged player is:
-2019-04-10 17:21:10 [main] model.Merge.szamolj()
+2019-04-10 19:20:35 [main] model.Merge.calculate()
 INFO: Not the same player. Search continues.
-2019-04-10 17:21:10 [main] model.Merge.szamolj()
+2019-04-10 19:20:35 [main] model.Merge.calculate()
 INFO: Player 2 is:
-2019-04-10 17:21:10 [main] model.Merge.szamolj()
+2019-04-10 19:20:35 [main] model.Merge.calculate()
 INFO: Merged player is:
-2019-04-10 17:21:10 [main] model.Merge.szamolj()
+2019-04-10 19:20:35 [main] model.Merge.calculate()
 INFO: Not the same player. Search continues.
-2019-04-10 17:21:10 [main] model.Merge.szamolj()
+2019-04-10 19:20:35 [main] model.Merge.calculate()
 INFO: Player 2 is:
-2019-04-10 17:21:10 [main] model.Merge.szamolj()
+2019-04-10 19:20:35 [main] model.Merge.calculate()
 INFO: Merged player is:
-2019-04-10 17:21:10 [main] model.Merge.szamolj()
+2019-04-10 19:20:35 [main] model.Merge.calculate()
 INFO: Not the same player. Search continues.
-2019-04-10 17:21:10 [main] model.Merge.szamolj()
+2019-04-10 19:20:35 [main] model.Merge.calculate()
 INFO: Player 2 is:
-2019-04-10 17:21:10 [main] model.Merge.szamolj()
+2019-04-10 19:20:35 [main] model.Merge.calculate()
 INFO: Merged player is:
-2019-04-10 17:21:10 [main] model.Merge.szamolj()
+2019-04-10 19:20:35 [main] model.Merge.calculate()
 INFO: Not the same player. Search continues.
-2019-04-10 17:21:10 [main] model.Merge.szamolj()
+2019-04-10 19:20:35 [main] model.Merge.calculate()
 INFO: Player 2 is:
-2019-04-10 17:21:10 [main] model.Merge.szamolj()
+2019-04-10 19:20:35 [main] model.Merge.calculate()
 INFO: Merged player is:
-2019-04-10 17:21:10 [main] model.Merge.szamolj()
+2019-04-10 19:20:35 [main] model.Merge.calculate()
 INFO: Not the same player. Search continues.
-2019-04-10 17:21:10 [main] model.Merge.szamolj()
+2019-04-10 19:20:35 [main] model.Merge.calculate()
 INFO: Player 2 is:
-2019-04-10 17:21:10 [main] model.Merge.szamolj()
+2019-04-10 19:20:35 [main] model.Merge.calculate()
 INFO: Merged player is:
-2019-04-10 17:21:10 [main] model.Merge.szamolj()
+2019-04-10 19:20:35 [main] model.Merge.calculate()
 INFO: Not the same player. Search continues.
-2019-04-10 17:21:10 [main] model.Merge.szamolj()
+2019-04-10 19:20:35 [main] model.Merge.calculate()
 INFO: Player 2 is:
-2019-04-10 17:21:10 [main] model.Merge.szamolj()
+2019-04-10 19:20:35 [main] model.Merge.calculate()
 INFO: Merged player is:
-2019-04-10 17:21:10 [main] model.Merge.szamolj()
+2019-04-10 19:20:35 [main] model.Merge.calculate()
 INFO: Not the same player. Search continues.
-2019-04-10 17:21:10 [main] model.Merge.szamolj()
+2019-04-10 19:20:35 [main] model.Merge.calculate()
 INFO: Player 2 is:
-2019-04-10 17:21:10 [main] model.Merge.szamolj()
+2019-04-10 19:20:35 [main] model.Merge.calculate()
 INFO: Merged player is:
-2019-04-10 17:21:10 [main] model.Merge.szamolj()
+2019-04-10 19:20:35 [main] model.Merge.calculate()
 INFO: Not the same player. Search continues.
-2019-04-10 17:21:10 [main] model.Merge.szamolj()
+2019-04-10 19:20:35 [main] model.Merge.calculate()
 INFO: Player 2 is:
-2019-04-10 17:21:10 [main] model.Merge.szamolj()
+2019-04-10 19:20:35 [main] model.Merge.calculate()
 INFO: Merged player is:
-2019-04-10 17:21:10 [main] model.Merge.szamolj()
+2019-04-10 19:20:35 [main] model.Merge.calculate()
 INFO: Not the same player. Search continues.
-2019-04-10 17:21:10 [main] model.Merge.szamolj()
+2019-04-10 19:20:35 [main] model.Merge.calculate()
 INFO: Player 2 is:
-2019-04-10 17:21:10 [main] model.Merge.szamolj()
+2019-04-10 19:20:35 [main] model.Merge.calculate()
 INFO: Merged player is:
-2019-04-10 17:21:10 [main] model.Merge.szamolj()
+2019-04-10 19:20:35 [main] model.Merge.calculate()
 INFO: Not the same player. Search continues.
-2019-04-10 17:21:10 [main] model.Merge.szamolj()
+2019-04-10 19:20:35 [main] model.Merge.calculate()
 INFO: Player 2 is:
-2019-04-10 17:21:10 [main] model.Merge.szamolj()
+2019-04-10 19:20:35 [main] model.Merge.calculate()
 INFO: Merged player is:
-2019-04-10 17:21:10 [main] model.Merge.szamolj()
+2019-04-10 19:20:35 [main] model.Merge.calculate()
+INFO: Not the same player. Search continues.
+2019-04-10 19:20:35 [main] model.Merge.calculate()
+INFO: Player 2 is:
+2019-04-10 19:20:35 [main] model.Merge.calculate()
+INFO: Merged player is:
+2019-04-10 19:20:35 [main] model.Merge.calculate()
+INFO: Not the same player. Search continues.
+2019-04-10 19:20:35 [main] model.Merge.calculate()
+INFO: Player 2 is:
+2019-04-10 19:20:35 [main] model.Merge.calculate()
+INFO: Merged player is:
+2019-04-10 19:20:35 [main] model.Merge.calculate()
 INFO: Everything works, player 2 is merged.
-2019-04-10 17:21:10 [main] model.Merge.szamolj()
-INFO: 0
-2019-04-10 17:21:10 [main] model.Merge.szamolj()
+2019-04-10 19:20:35 [main] model.Merge.calculate()
+INFO: 27
+2019-04-10 19:20:35 [main] model.Merge.calculate()
 INFO: Player 2's points are calculated
-2019-04-10 17:21:10 [main] model.Merge.szamolj()
+2019-04-10 19:20:35 [main] model.Merge.calculate()
 INFO: Has player one played before? T/F
-2019-04-10 17:21:10 [main] model.Merge.szamolj()
+2019-04-10 19:20:35 [main] model.Merge.calculate()
 INFO: Has player two played before? T/F
-2019-04-10 17:21:10 [main] model.Merge.szamolj()
+2019-04-10 19:20:35 [main] model.Merge.calculate()
 INFO: The merge is completed. The database is up-to-date

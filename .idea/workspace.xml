@@ -2,31 +2,35 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fcdcc78e-3ac8-4d92-aa90-642697a7441a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/model/package-info.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/log.0.txt" beforeDir="false" afterPath="$PROJECT_DIR$/log.0.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/log.1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/log.1.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/log.2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/log.2.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log.3.txt" beforeDir="false" afterPath="$PROJECT_DIR$/log.3.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log.4.txt" beforeDir="false" afterPath="$PROJECT_DIR$/log.4.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log.5.txt" beforeDir="false" afterPath="$PROJECT_DIR$/log.5.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log.6.txt" beforeDir="false" afterPath="$PROJECT_DIR$/log.6.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log.7.txt" beforeDir="false" afterPath="$PROJECT_DIR$/log.7.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log.8.txt" beforeDir="false" afterPath="$PROJECT_DIR$/log.8.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log.9.txt" beforeDir="false" afterPath="$PROJECT_DIR$/log.9.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/log.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/controller/MainApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/MainApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/checkstyle-checker.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/checkstyle-checker.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/model/Merge.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/Merge.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/model/ReadXMLFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/ReadXMLFile.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/model/XmlProba.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/XmlProba.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/model/merged.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/merged.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/model/output.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/output.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/view/GameController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/view/GameController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/view/MenuController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/view/MenuController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/view/StartGameController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/view/StartGameController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/test/TestHighScores.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/TestHighScores.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/checkstyle-cachefile" beforeDir="false" afterPath="$PROJECT_DIR$/target/checkstyle-cachefile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/checkstyle-checker.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/checkstyle-checker.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/checkstyle-result.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/checkstyle-result.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/controller/MainApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/controller/MainApp.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/model/Merge.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/model/Merge.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/model/ReadXMLFile.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/model/ReadXMLFile.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/model/XmlProba.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/model/XmlProba.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/start.png" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/start.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/view/GameController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/view/GameController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/view/MenuController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/view/MenuController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/view/StartGameController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/view/StartGameController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/site/apidocs/allclasses-frame.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/apidocs/allclasses-frame.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/site/apidocs/allclasses-noframe.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/apidocs/allclasses-noframe.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/site/apidocs/constant-values.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/apidocs/constant-values.html" afterDir="false" />
@@ -69,18 +73,7 @@
       <change beforePath="$PROJECT_DIR$/target/site/apidocs/view/package-use.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/apidocs/view/package-use.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/site/checkstyle.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/checkstyle.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/site/checkstyle.rss" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/checkstyle.rss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/dependencies.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/dependencies.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/dependency-info.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/dependency-info.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/licenses.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/licenses.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/plugin-management.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/plugin-management.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/plugins.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/plugins.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/project-info.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/project-info.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/project-reports.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/project-reports.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/scm.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/scm.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/summary.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/site/surefire-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/surefire-report.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/team.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/team.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/site/testapidocs/allclasses-frame.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/testapidocs/allclasses-frame.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/site/testapidocs/allclasses-noframe.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/testapidocs/allclasses-noframe.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/site/testapidocs/constant-values.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/testapidocs/constant-values.html" afterDir="false" />
@@ -97,19 +90,15 @@
       <change beforePath="$PROJECT_DIR$/target/site/testapidocs/test/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/testapidocs/test/package-summary.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/site/testapidocs/test/package-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/testapidocs/test/package-tree.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/site/testapidocs/test/package-use.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/testapidocs/test/package-use.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/xref-test/test/Test.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/xref-test/test/Test.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/site/xref-test/test/TestHighScores.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/xref-test/test/TestHighScores.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/xref/controller/MainApp.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/xref/controller/MainApp.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/site/xref/model/Merge.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/xref/model/Merge.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/site/xref/model/ReadXMLFile.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/xref/model/ReadXMLFile.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/site/xref/model/XmlProba.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/xref/model/XmlProba.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/site/xref/view/GameController.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/xref/view/GameController.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/xref/view/MenuController.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/xref/view/MenuController.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/xref/view/RulesController.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/xref/view/RulesController.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/site/xref/view/StartGameController.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/xref/view/StartGameController.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/xref/view/ToplistController.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/xref/view/ToplistController.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-test.TestHighScores.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-test.TestHighScores.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/test.TestHighScores.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/test.TestHighScores.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/test/TestHighScores.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/test/TestHighScores.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -122,10 +111,17 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/controller/package-info.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/view/GameController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" column="34" selection-start-line="1" selection-start-column="34" selection-end-line="1" selection-end-column="34" />
+            <state relative-caret-position="363">
+              <caret line="96" column="17" selection-start-line="96" selection-start-column="17" selection-end-line="96" selection-end-column="17" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#3508#3509#0" expanded="true" />
+                <element signature="e#3552#3553#0" expanded="true" />
+                <element signature="e#3776#3777#0" expanded="true" />
+                <element signature="e#3820#3821#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -155,6 +151,13 @@
       <find>chec</find>
       <find>linel</find>
       <find>hidden</find>
+      <find>HideUtilityClassConstructor</find>
+      <find>magi</find>
+      <find>MethodLength</find>
+      <find>player1pontok</find>
+      <find>asd</find>
+      <find>asd1</find>
+      <find>arg</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -172,18 +175,18 @@
         <option value="$PROJECT_DIR$/src/main/java/view/ToplistController.java" />
         <option value="$PROJECT_DIR$/src/test/java/test/Test.java" />
         <option value="$PROJECT_DIR$/src/test/java/test/TestHighScores.java" />
-        <option value="$PROJECT_DIR$/src/main/java/view/GameController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/model/XmlProba.java" />
         <option value="$PROJECT_DIR$/src/main/java/view/MenuController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/model/Merge.java" />
         <option value="$PROJECT_DIR$/target/checkstyle-checker.xml" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/model/ReadXMLFile.java" />
-        <option value="$PROJECT_DIR$/src/checkstyle-checker.xml" />
         <option value="$PROJECT_DIR$/src/main/java/controller/MainApp.java" />
         <option value="$PROJECT_DIR$/src/main/java/model/package-info.java" />
         <option value="$PROJECT_DIR$/src/main/java/view/package-info.java" />
         <option value="$PROJECT_DIR$/src/main/java/controller/package-info.java" />
+        <option value="$PROJECT_DIR$/src/checkstyle-checker.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/model/Merge.java" />
+        <option value="$PROJECT_DIR$/src/main/java/model/ReadXMLFile.java" />
+        <option value="$PROJECT_DIR$/src/main/java/model/XmlProba.java" />
+        <option value="$PROJECT_DIR$/src/main/java/view/GameController.java" />
       </list>
     </option>
   </component>
@@ -304,7 +307,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554910281269" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554917159184" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../../SZAKDOLGOZAT/szaki" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -381,18 +384,17 @@
       <workItem from="1554748030579" duration="4266000" />
       <workItem from="1554752505664" duration="4038000" />
       <workItem from="1554806594994" duration="638000" />
-      <workItem from="1554898112760" duration="9827000" />
+      <workItem from="1554898112760" duration="17292000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="67380000" />
+    <option name="totallyTimeSpent" value="74845000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="64" y="-11" width="1857" height="1092" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25981206" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25981206" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -407,7 +409,7 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.20480669" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.20585161" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="10" />
@@ -523,40 +525,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/view/GameController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="627">
-          <caret line="119" column="35" lean-forward="true" selection-start-line="119" selection-start-column="35" selection-end-line="119" selection-end-column="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/model/XmlProba.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="164" column="20" lean-forward="true" selection-start-line="164" selection-start-column="20" selection-end-line="164" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/view/MenuController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="522">
           <caret line="111" column="7" lean-forward="true" selection-start-line="111" selection-start-column="7" selection-end-line="111" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/model/Merge.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1020">
-          <caret line="83" column="35" selection-start-line="83" selection-start-column="35" selection-end-line="83" selection-end-column="35" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -582,32 +554,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/model/ReadXMLFile.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" selection-start-line="23" selection-end-line="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/checkstyle-checker.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2310">
-          <caret line="154" column="36" selection-start-line="154" selection-start-column="36" selection-end-line="154" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/controller/MainApp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/model/package-info.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -622,6 +568,91 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
           <caret line="1" column="34" selection-start-line="1" selection-start-column="34" selection-end-line="1" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/checkstyle-checker.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="118" column="10" selection-start-line="118" selection-start-column="10" selection-end-line="118" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/controller/MainApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="975">
+          <caret line="67" column="18" lean-forward="true" selection-start-line="67" selection-end-line="68" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/ReadXMLFile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="226">
+          <caret line="64" column="89" selection-start-line="64" selection-start-column="19" selection-end-line="64" selection-end-column="89" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#817#818#0" expanded="true" />
+            <element signature="e#856#857#0" expanded="true" />
+            <element signature="e#1377#1378#0" expanded="true" />
+            <element signature="e#1414#1415#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/lib/jvm/java-8-oracle/src.zip!/java/lang/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="113" column="31" selection-start-line="113" selection-start-column="31" selection-end-line="113" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/XmlProba.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret lean-forward="true" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1562#1563#0" expanded="true" />
+            <element signature="e#1602#1603#0" expanded="true" />
+            <element signature="e#1660#1661#0" expanded="true" />
+            <element signature="e#1700#1701#0" expanded="true" />
+            <element signature="e#1762#1763#0" expanded="true" />
+            <element signature="e#1803#1804#0" expanded="true" />
+            <element signature="e#1865#1866#0" expanded="true" />
+            <element signature="e#1906#1907#0" expanded="true" />
+            <element signature="e#2406#2407#0" expanded="true" />
+            <element signature="e#2444#2445#0" expanded="true" />
+            <element signature="e#2502#2503#0" expanded="true" />
+            <element signature="e#2539#2540#0" expanded="true" />
+            <element signature="e#2598#2599#0" expanded="true" />
+            <element signature="e#2636#2637#0" expanded="true" />
+            <element signature="e#3011#3012#0" expanded="true" />
+            <element signature="e#3049#3050#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/Merge.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4">
+          <caret line="21" column="23" selection-start-line="21" selection-start-column="23" selection-end-line="21" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/view/GameController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="363">
+          <caret line="96" column="17" selection-start-line="96" selection-start-column="17" selection-end-line="96" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#3508#3509#0" expanded="true" />
+            <element signature="e#3552#3553#0" expanded="true" />
+            <element signature="e#3776#3777#0" expanded="true" />
+            <element signature="e#3820#3821#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

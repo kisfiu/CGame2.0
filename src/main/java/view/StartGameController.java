@@ -20,9 +20,6 @@ import javax.xml.transform.TransformerException;
 
 import controller.MainApp;
 
-import org.pmw.tinylog.Logger;
-
-
 
 /**
  * Controller for the StartGame.fxml, the game's starting page.
@@ -43,8 +40,8 @@ public class StartGameController
         GameController gamecontroller = loader.getController();
         gamecontroller.setName(playeronetext.getText());
         gamecontroller.ssetName(playertwotext.getText());
-        XmlProba.settName1(playeronetext.getText());
-        XmlProba.settName2(playertwotext.getText());
+        XmlProba.setName1(playeronetext.getText());
+        XmlProba.setName2(playertwotext.getText());
         ReadXMLFile.settName1(playeronetext.getText());
         ReadXMLFile.settName2(playertwotext.getText());
         
