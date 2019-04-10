@@ -66,7 +66,8 @@ public class GameController
 	@FXML
 	private Button backbutton;
 	@FXML
-	private void goback(ActionEvent event) throws IOException 
+	private void goback(ActionEvent event) throws IOException
+
 	{		
 		Node node=(Node) event.getSource();
 		Stage stage=(Stage) node.getScene().getWindow();
@@ -74,6 +75,7 @@ public class GameController
 		Scene scene = new Scene(root);
 		stage.setScene(scene);
 		stage.show();
+		Logger.info("Back button");
 	}
 	
 	@FXML
@@ -423,8 +425,8 @@ public class GameController
 					/**
 					 * Data for ReadXMLFile.java
 					 */
-					ReadXMLFile.setpontok1(player1pontok);
-					ReadXMLFile.setpontok2(player2pontok);
+					ReadXMLFile.setPoints1(player1pontok);
+					ReadXMLFile.setPoints2(player2pontok);
 					ReadXMLFile.main(null);
 					try {
 						XmlProba.main(null);

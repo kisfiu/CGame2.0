@@ -14,11 +14,17 @@ import org.pmw.tinylog.Logger;
  * Extends application.Application
  */
 public class MainApp extends Application {
-    private Stage primaryStage;
-    private AnchorPane menu;
-    
+    /**
+     * Stage Variable primaryStage declares the primary stage that we are using.
+     * AnchorPane Variable menu is the main menu
+     */
+    private Stage primaryStage; private AnchorPane menu;
+
+     /**
+     * @param primaryStage is the UI's primary stage
+     */
     @Override
-    public void start(Stage primaryStage) {
+    public final void start(final Stage primaryStage) {
         this.primaryStage = primaryStage;
         this.primaryStage.setTitle("ColorGame");
         showmenu();
@@ -29,7 +35,7 @@ public class MainApp extends Application {
     /**
      * Initializes the root layout.
      */
-    public void showmenu() {
+    public final void showmenu() {
         try {
             // Load root layout from fxml file.
             FXMLLoader loader = new FXMLLoader();
@@ -43,8 +49,7 @@ public class MainApp extends Application {
             Scene scene = new Scene(menu);
             primaryStage.setScene(scene);
             primaryStage.show();
-        }
-        catch (IOException e) {
+        } catch (IOException e) {
             e.printStackTrace();
             Logger.error("BAMM Exception :: ", e);
         }
@@ -53,16 +58,16 @@ public class MainApp extends Application {
 
     /**
      * Returns the main stage.
-     * @return
+     * @return primaryStage
      */
-    public Stage getPrimaryStage() {
+    public final Stage getPrimaryStage() {
         return primaryStage;
     }
 
     /**
-     *
+     * @param args Any arguments to be included in a string representation of this event.
      */
-    public static void main(String[] args) {
+    public static void main(final String[] args) {
         launch(args);
     }
 }

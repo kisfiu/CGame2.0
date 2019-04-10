@@ -5,8 +5,6 @@ import javax.xml.parsers.DocumentBuilder;
 import org.w3c.dom.Document;
 import org.w3c.dom.NodeList;
 
-import view.StartGameController;
-
 import org.w3c.dom.Node;
 import org.w3c.dom.Element;
 import java.io.File;
@@ -14,18 +12,20 @@ import java.io.File;
 import org.pmw.tinylog.Logger;
 
 
-
 /**
  * It is for the testing. How the xml database compares the players.
  */
 public class ReadXMLFile {
 
-	
-	static String neve1;static String neve2;static String pontos1;static String pontos2;
-	public static void setpontok1(String player1pontok)     {pontos1 = player1pontok;}
-	public static void setpontok2(String player2pontok)     {pontos2 = player2pontok;}
-	public static void settName1(String playeronetext)     {neve1 = playeronetext;}
-	public static void settName2(String playertwotext)     {neve2 = playertwotext;}
+	/**
+	 * Represents the names and the points of the players
+	 */
+	private static String name1; private static String name2; private static String pontos1; private static String pontos2;
+
+	public static void setPoints1(String player1pontok)     { pontos1 = player1pontok; }
+	public static void setPoints2(String player2pontok)     {pontos2 = player2pontok; }
+	public static void settName1(String playeronetext)     { name1 = playeronetext; }
+	public static void settName2(String playertwotext)     { name2 = playertwotext; }
 
 	public static void main(String argv[])
 	{
@@ -54,7 +54,7 @@ public class ReadXMLFile {
 				{
 					Element eElement = (Element) nNode;
 					String neve = eElement.getAttribute("name");
-					if (neve.equals(neve1))
+					if (neve.equals(name1))
 					{
 						Logger.info("\n" + "It was already used." + "\n");
 					}

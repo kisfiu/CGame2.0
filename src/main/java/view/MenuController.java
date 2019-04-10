@@ -92,9 +92,8 @@ public class MenuController
 	}
 
 	/**
-	 *
+	 * Reference to the main application.
 	 */
-	// Reference to the main application.
     private MainApp mainApp;
 
     /**

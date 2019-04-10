@@ -87,7 +87,7 @@ public class XmlProba {
 //        points.setTextContent(pontos1);
      
         int pontok1;
-        Logger.info(matcheswon1.getTextContent());
+        Logger.info("Player one's matches won:",matcheswon1.getTextContent());
         if(Integer.parseInt(matcheswon1.getTextContent()) != 0 || Integer.parseInt(matchesdraw1.getTextContent()) != 0)
         {
            pontok1 = (Integer.parseInt(matcheswon1.getTextContent()) * 5 + Integer.parseInt(matchesdraw1.getTextContent()) * 3);
@@ -138,7 +138,7 @@ public class XmlProba {
         player2.appendChild(points2);
         
         int pontok2;
-        Logger.info(matcheswon2.getTextContent());
+        Logger.info("Player two's matches won:", matcheswon2.getTextContent());
         if(Integer.parseInt(matcheswon2.getTextContent()) != 0 || Integer.parseInt(matchesdraw2.getTextContent()) != 0)
         {
            pontok2 = (Integer.parseInt(matcheswon2.getTextContent()) * 5 + Integer.parseInt(matchesdraw2.getTextContent()) * 3);
