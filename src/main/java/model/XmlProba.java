@@ -17,7 +17,7 @@ import org.pmw.tinylog.Logger;
 
 
 /**
- *
+ * Merging and parsing the data. Creating the database.
  * @author kisfiu
  */
 

@@ -14,6 +14,7 @@ import org.pmw.tinylog.Logger;
 
 /**
  * It is for the testing. How the xml database compares the players.
+ * @author kisfiu
  */
 public final class ReadXMLFile {
     /**

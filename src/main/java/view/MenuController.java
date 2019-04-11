@@ -18,7 +18,7 @@ import javafx.scene.Scene;
 
 /**
  * Controller for the Menu.fxml, for the menu in the game.
- *
+ * @author kisfiu
  */
 public class MenuController {
 

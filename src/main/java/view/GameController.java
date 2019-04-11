@@ -30,6 +30,7 @@ import org.pmw.tinylog.Logger;
 /**
  * Controller for the Game.fxml
  * How the players take turns according to the rules.
+ * @author kisfiu
  */
 public class GameController {
     /**

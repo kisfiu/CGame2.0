@@ -28,6 +28,7 @@ import org.pmw.tinylog.Logger;
 
 /**
  * Controller for the Toplist.fxml, for the top list of the game. It shows the top 10 players and their points (in order).
+ * @author kisfiu
  */
 public class ToplistController {
     /**

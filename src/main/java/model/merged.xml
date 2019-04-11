@@ -235,15 +235,27 @@
     <points>52</points>
   </player>
 <player name="Urgundi Gyula">
-    <matchesplayed>1</matchesplayed>
+    <matchesplayed>4</matchesplayed>
     <matcheswon>0</matcheswon>
-    <matchesdraw>1</matchesdraw>
-    <points>5</points>
+    <matchesdraw>4</matchesdraw>
+    <points>27</points>
   </player>
 <player name="Timo Tizenkettő">
+    <matchesplayed>4</matchesplayed>
+    <matcheswon>0</matcheswon>
+    <matchesdraw>4</matchesdraw>
+    <points>27</points>
+  </player>
+<player name="Zsa">
     <matchesplayed>1</matchesplayed>
     <matcheswon>0</matcheswon>
     <matchesdraw>1</matchesdraw>
-    <points>5</points>
+    <points>4</points>
+  </player>
+<player name="Almalé">
+    <matchesplayed>1</matchesplayed>
+    <matcheswon>0</matcheswon>
+    <matchesdraw>1</matchesdraw>
+    <points>4</points>
   </player>
 </players>

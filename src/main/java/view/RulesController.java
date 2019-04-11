@@ -14,6 +14,7 @@ import javafx.stage.Stage;
 
 /**
  * Controller for the Rules.fxml, for the Rules page.
+ * @author kisfiu
  */
 public class RulesController {
 

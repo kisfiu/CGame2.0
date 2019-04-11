@@ -31,6 +31,7 @@ import org.pmw.tinylog.Logger;
 
 /**
  * Merging the xml files to create the new database.
+ * @author kisfiu
  */
 public final class Merge {
     /**

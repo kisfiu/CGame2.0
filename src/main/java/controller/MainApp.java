@@ -12,6 +12,7 @@ import org.pmw.tinylog.Logger;
 /**
  * Main app.
  * Extends application.Application
+ * @author kisfiu
  */
 public class MainApp extends Application {
     /**

@@ -24,6 +24,7 @@ import org.pmw.tinylog.Logger;
 
 /**
  * Controller for the StartGame.fxml, the game's starting page.
+ * @author kisfiu
  */
 public class StartGameController {
     /**
