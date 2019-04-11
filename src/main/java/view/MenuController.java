@@ -10,110 +10,102 @@ import javafx.stage.Stage;
 
 import java.io.IOException;
 
-import javax.xml.parsers.ParserConfigurationException;
-import javax.xml.transform.TransformerException;
-
-import org.xml.sax.SAXException;
-
 import controller.MainApp;
 import javafx.scene.Node;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
-
-import org.pmw.tinylog.Logger;
-
 
 
 /**
  * Controller for the Menu.fxml, for the menu in the game.
  *
  */
-public class MenuController
-{
-	@FXML
-	private Button startbutton;
-	@FXML
-	private void handleButtonAction(ActionEvent event) throws IOException 
-	{		
-		Node node=(Node) event.getSource();
-		Stage stage=(Stage) node.getScene().getWindow();
-		Parent root = FXMLLoader.load(getClass().getResource("/StartGame.fxml"));
-		Scene scene = new Scene(root);
-		stage.setScene(scene);
-		stage.show();	
-	}
-	
-	@FXML
-	private Button toplistbutton;
+public class MenuController {
 
-	/**
-	 * Sets up the Toplist button
-	 */
-	@FXML
-	private void handletoplistbutton(ActionEvent event) throws IOException, TransformerException, ParserConfigurationException, SAXException 
-	{
-//    	SetToplist.main(null);
-		Node node=(Node) event.getSource();
-		Stage stage=(Stage) node.getScene().getWindow();
-		Parent root = FXMLLoader.load(getClass().getResource("/Toplist.fxml"));
-		Scene scene = new Scene(root);
-		stage.setScene(scene);
-		stage.show();	
-	}
-	
-	
-	@FXML
-	private Label elso;	
-	@FXML
-	private Label masodik;
-	@FXML
-	private Text texxt;
-	@FXML
-	private Button rulesbutton;
+    /**
+     * Button for starting the game.
+     */
+    @FXML
+    private Button startButton;
 
-	/**
-	 * Sets up the Rules button
-	 */
-	@FXML
-	private void handlerulesbutton(ActionEvent e) throws IOException
-	{
-		Node node=(Node) e.getSource();
-		Stage stage=(Stage) node.getScene().getWindow();
-		Parent root = FXMLLoader.load(getClass().getResource("/Rules.fxml"));
-		Scene scene = new Scene(root);
-		stage.setScene(scene);
-		stage.show();	
-//		Node node=(Node) e.getSource();
-//		Scene scene = node.getScene();
-//		Node noode=(Node) node;
-//		String sajt = "toplistbutton";
-//		noode= scene.lookup("#toplistbutton");
-//		noode.setDisable(true);
-	}
+    /**
+     * Handles the start game button.
+     * @param event is an action event for the button
+     * @throws IOException if the input is not right.
+     */
+    @FXML
+    private void handleButtonAction(final ActionEvent event) throws IOException {
+        Node node = (Node) event.getSource();
+        Stage stage = (Stage) node.getScene().getWindow();
+        Parent root = FXMLLoader.load(getClass().getResource("/StartGame.fxml"));
+        Scene scene = new Scene(root);
+        stage.setScene(scene);
+        stage.show();
+    }
 
-	/**
-	 * Reference to the main application.
-	 */
+    /**
+     * Button for the top list.
+     */
+    @FXML
+    private Button toplistButton;
+
+    /**
+     * Sets up the Toplist button.
+     * @param event  action event for the button
+     * @throws IOException if the input is not right.
+     */
+    @FXML
+    private void handletoplistbutton(final ActionEvent event) throws IOException {
+        Node node = (Node) event.getSource();
+        Stage stage = (Stage) node.getScene().getWindow();
+        Parent root = FXMLLoader.load(getClass().getResource("/Toplist.fxml"));
+        Scene scene = new Scene(root);
+        stage.setScene(scene);
+        stage.show();
+    }
+
+    /**
+     * Labels for the players. Text fot the labels. And the Rules button.
+     */
+    @FXML private Label firstLabel; @FXML private Label secondLabel; @FXML private Text textLabel; @FXML private Button rulesButton;
+
+    /**
+     * Sets up the Rules button.
+     * @param e is an action event for the button.
+     * @throws IOException if the input is not right.
+     */
+    @FXML
+    private void handlerulesbutton(final ActionEvent e) throws IOException {
+        Node node = (Node) e.getSource();
+        Stage stage = (Stage) node.getScene().getWindow();
+        Parent root = FXMLLoader.load(getClass().getResource("/Rules.fxml"));
+        Scene scene = new Scene(root);
+        stage.setScene(scene);
+        stage.show();
+    }
+
+    /**
+     * Reference to the main application.
+     */
     private MainApp mainApp;
 
     /**
      * The constructor.
      * The constructor is called before the initialize() method.
      */
-    public MenuController() {}
+    public MenuController() {
+    }
 
     /**
      * Initializes the controller class. This method is automatically called
      * after the fxml file has been loaded.
      */
-    
 
     /**
      * Is called by the main application to give a reference back to itself.
-     * 
-     * @param mainApp
+     * @param mainApp refers to the main app
      */
-    public void setMainApp(MainApp mainApp) {
+    public final void setMainApp(final MainApp mainApp) {
         this.mainApp = mainApp;
     }
 }

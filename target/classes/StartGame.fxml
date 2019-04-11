@@ -21,7 +21,7 @@
       </Label>
       <TextField fx:id="playeronetext" alignment="CENTER" layoutX="101.0" layoutY="243.0" promptText="name" />
       <TextField fx:id="playertwotext" alignment="CENTER" layoutX="530.0" layoutY="243.0" promptText="name" />
-      <Button fx:id="letsgobutton" defaultButton="true" layoutX="323.0" layoutY="381.0" mnemonicParsing="false" onAction="#okClicked" prefHeight="67.0" prefWidth="180.0" style="-fx-background-color: transparent;" text="let's go">
+      <Button fx:id="letsGoButton" defaultButton="true" layoutX="323.0" layoutY="381.0" mnemonicParsing="false" onAction="#okClicked" prefHeight="67.0" prefWidth="180.0" style="-fx-background-color: transparent;" text="let's go">
          <font>
             <Font name="LMMono9-Regular" size="31.0" />
          </font></Button>

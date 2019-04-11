@@ -6,6 +6,6 @@
 <AnchorPane xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="view.RulesController">
    <children>
       <AnchorPane prefHeight="600.0" prefWidth="800.0" styleClass="ruleshatter" stylesheets="@theme.css" />
-      <Button fx:id="gobackbutton" mnemonicParsing="false" onAction="#handBackto" style="-fx-background-color: transparent;" text="BACK" textFill="WHITE" />
+      <Button fx:id="backButton" mnemonicParsing="false" onAction="#handBackto" style="-fx-background-color: transparent;" text="BACK" textFill="WHITE" />
    </children>
 </AnchorPane>

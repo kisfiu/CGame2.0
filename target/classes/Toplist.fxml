@@ -179,7 +179,7 @@
                   </Label>
                </children>
             </AnchorPane>
-            <Button fx:id="muta" defaultButton="true" layoutX="237.0" layoutY="136.0" mnemonicParsing="false" onAction="#mutasd" prefHeight="39.0" prefWidth="305.0" style="-fx-background-color: pink;" text="Let's find out!" textFill="#1807b0e6">
+            <Button fx:id="showTopListButton" defaultButton="true" layoutX="237.0" layoutY="136.0" mnemonicParsing="false" onAction="#showTopList" prefHeight="39.0" prefWidth="305.0" style="-fx-background-color: pink;" text="Let's find out!" textFill="#1807b0e6">
                <font>
                   <Font size="18.0" />
                </font></Button>

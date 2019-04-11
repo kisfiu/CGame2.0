@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <players>
-  <player name="lk">
+  <player name="Urgundi Gyula">
     <matchesplayed>1</matchesplayed>
     <matcheswon>0</matcheswon>
-    <matchesdraw>0</matchesdraw>
-    <points>0</points>
+    <matchesdraw>1</matchesdraw>
+    <points>5</points>
   </player>
-  <player name="lkn">
+  <player name="Timo Tizenkettő">
     <matchesplayed>1</matchesplayed>
-    <matcheswon>1</matcheswon>
-    <matchesdraw>0</matchesdraw>
-    <points>8</points>
+    <matcheswon>0</matcheswon>
+    <matchesdraw>1</matchesdraw>
+    <points>5</points>
   </player>
 </players>

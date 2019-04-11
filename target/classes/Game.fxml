@@ -33,78 +33,78 @@
                   <RowConstraints maxHeight="-Infinity" minHeight="-Infinity" percentHeight="70.0" prefHeight="70.0" vgrow="SOMETIMES" />
               </rowConstraints>
                <children>
-                  <Button fx:id="button00" mnemonicParsing="false" onAction="#lepeslehetoseg" prefHeight="70.0" prefWidth="70.0" styleClass="greenbutton" stylesheets="@theme.css" />
-                  <Button fx:id="button01" mnemonicParsing="false" onAction="#lepeslehetoseg" prefHeight="70.0" prefWidth="70.0" styleClass="bluebutton" stylesheets="@theme.css" GridPane.columnIndex="1" />
-                  <Button fx:id="button02" mnemonicParsing="false" onAction="#lepeslehetoseg" prefHeight="70.0" prefWidth="70.0" style="-fx-background-radius: 100;" styleClass="bluebutton" stylesheets="@theme.css" GridPane.columnIndex="2" />
-                  <Button fx:id="button03" mnemonicParsing="false" onAction="#lepeslehetoseg" prefHeight="70.0" prefWidth="70.0" style="-fx-background-radius: 100;" styleClass="bluebutton" GridPane.columnIndex="3" />
-                  <Button fx:id="button04" mnemonicParsing="false" onAction="#lepeslehetoseg" prefHeight="70.0" prefWidth="70.0" style="-fx-background-radius: 100;" styleClass="bluebutton" GridPane.columnIndex="4" />
-                  <Button fx:id="button05" mnemonicParsing="false" onAction="#lepeslehetoseg" prefHeight="70.0" prefWidth="70.0" style="-fx-background-radius: 100;" styleClass="bluebutton" GridPane.columnIndex="5" />
-                  <Button fx:id="button06" mnemonicParsing="false" onAction="#lepeslehetoseg" prefHeight="70.0" prefWidth="70.0" style="-fx-background-radius: 100;" styleClass="greenbutton" stylesheets="@theme.css" GridPane.columnIndex="6" />
-                  <Button fx:id="button10" mnemonicParsing="false" onAction="#lepeslehetoseg" prefHeight="70.0" prefWidth="70.0" style="-fx-background-radius: 100;" styleClass="redbutton" GridPane.rowIndex="1" />
-                  <Button fx:id="button11" mnemonicParsing="false" onAction="#lepeslehetoseg" prefHeight="70.0" prefWidth="70.0" style="-fx-background-radius: 100;" styleClass="greenbutton" GridPane.columnIndex="1" GridPane.rowIndex="1" />
-                  <Button fx:id="button12" mnemonicParsing="false" onAction="#lepeslehetoseg" prefHeight="70.0" prefWidth="70.0" style="-fx-background-radius: 100;" styleClass="greenbutton" GridPane.columnIndex="2" GridPane.rowIndex="1" />
-                  <Button fx:id="button13" mnemonicParsing="false" onAction="#lepeslehetoseg" prefHeight="70.0" prefWidth="70.0" style="-fx-background-radius: 100;" styleClass="greenbutton" GridPane.columnIndex="3" GridPane.rowIndex="1" />
-                  <Button fx:id="button14" mnemonicParsing="false" onAction="#lepeslehetoseg" prefHeight="70.0" prefWidth="70.0" style="-fx-background-radius: 100;" styleClass="greenbutton" stylesheets="@theme.css" GridPane.columnIndex="4" GridPane.rowIndex="1" />
-                  <Button fx:id="button15" mnemonicParsing="false" onAction="#lepeslehetoseg" prefHeight="70.0" prefWidth="70.0" style="-fx-background-radius: 100;" styleClass="greenbutton" stylesheets="@theme.css" GridPane.columnIndex="5" GridPane.rowIndex="1" />
-                  <Button fx:id="button16" mnemonicParsing="false" onAction="#lepeslehetoseg" prefHeight="70.0" prefWidth="70.0" style="-fx-background-radius: 100;" styleClass="redbutton" stylesheets="@theme.css" GridPane.columnIndex="6" GridPane.rowIndex="1" />
-                  <Button fx:id="button20" mnemonicParsing="false" onAction="#lepeslehetoseg" prefHeight="70.0" prefWidth="70.0" style="-fx-background-radius: 100;" styleClass="redbutton" GridPane.rowIndex="2" />
-                  <Button fx:id="button21" mnemonicParsing="false" onAction="#lepeslehetoseg" prefHeight="70.0" prefWidth="70.0" style="-fx-background-radius: 100;" styleClass="greenbutton" GridPane.columnIndex="1" GridPane.rowIndex="2" />
-                  <Button fx:id="button22" mnemonicParsing="false" onAction="#lepeslehetoseg" prefHeight="70.0" prefWidth="70.0" style="-fx-background-radius: 100;" styleClass="greenbutton" GridPane.columnIndex="2" GridPane.rowIndex="2" />
-                  <Button fx:id="button23" mnemonicParsing="false" onAction="#lepeslehetoseg" prefHeight="70.0" prefWidth="70.0" style="-fx-background-radius: 100;" styleClass="greenbutton" GridPane.columnIndex="3" GridPane.rowIndex="2" />
-                  <Button fx:id="button24" mnemonicParsing="false" onAction="#lepeslehetoseg" prefHeight="70.0" prefWidth="70.0" style="-fx-background-radius: 100;" styleClass="greenbutton" GridPane.columnIndex="4" GridPane.rowIndex="2" />
-                  <Button fx:id="button25" mnemonicParsing="false" onAction="#lepeslehetoseg" prefHeight="70.0" prefWidth="70.0" style="-fx-background-radius: 100;" styleClass="greenbutton" GridPane.columnIndex="5" GridPane.rowIndex="2" />
-                  <Button fx:id="button26" mnemonicParsing="false" onAction="#lepeslehetoseg" prefHeight="70.0" prefWidth="70.0" style="-fx-background-radius: 100;" styleClass="redbutton" GridPane.columnIndex="6" GridPane.rowIndex="2" />
-                  <Button fx:id="button30" mnemonicParsing="false" onAction="#lepeslehetoseg" prefHeight="70.0" prefWidth="70.0" style="-fx-background-radius: 100;" styleClass="redbutton" GridPane.rowIndex="3" />
-                  <Button fx:id="button31" mnemonicParsing="false" onAction="#lepeslehetoseg" prefHeight="70.0" prefWidth="70.0" style="-fx-background-radius: 100;" styleClass="greenbutton" GridPane.columnIndex="1" GridPane.rowIndex="3" />
-                  <Button fx:id="button32" mnemonicParsing="false" onAction="#lepeslehetoseg" prefHeight="70.0" prefWidth="70.0" style="-fx-background-radius: 100;" styleClass="greenbutton" GridPane.columnIndex="2" GridPane.rowIndex="3" />
-                  <Button fx:id="button33" mnemonicParsing="false" onAction="#lepeslehetoseg" prefHeight="70.0" prefWidth="70.0" style="-fx-background-radius: 100;" styleClass="greenbutton" GridPane.columnIndex="3" GridPane.rowIndex="3" />
-                  <Button fx:id="button34" mnemonicParsing="false" onAction="#lepeslehetoseg" prefHeight="70.0" prefWidth="70.0" style="-fx-background-radius: 100;" styleClass="greenbutton" GridPane.columnIndex="4" GridPane.rowIndex="3" />
-                  <Button fx:id="button35" mnemonicParsing="false" onAction="#lepeslehetoseg" prefHeight="70.0" prefWidth="70.0" style="-fx-background-radius: 100;" styleClass="greenbutton" GridPane.columnIndex="5" GridPane.rowIndex="3" />
-                  <Button fx:id="button36" mnemonicParsing="false" onAction="#lepeslehetoseg" prefHeight="70.0" prefWidth="70.0" style="-fx-background-radius: 100;" styleClass="redbutton" GridPane.columnIndex="6" GridPane.rowIndex="3" />
-                  <Button fx:id="button40" mnemonicParsing="false" onAction="#lepeslehetoseg" prefHeight="70.0" prefWidth="70.0" style="-fx-background-radius: 100;" styleClass="redbutton" GridPane.rowIndex="4" />
-                  <Button fx:id="button41" mnemonicParsing="false" onAction="#lepeslehetoseg" prefHeight="70.0" prefWidth="70.0" style="-fx-background-radius: 100;" styleClass="greenbutton" GridPane.columnIndex="1" GridPane.rowIndex="4" />
-                  <Button fx:id="button42" mnemonicParsing="false" onAction="#lepeslehetoseg" prefHeight="70.0" prefWidth="70.0" style="-fx-background-radius: 100;" styleClass="greenbutton" GridPane.columnIndex="2" GridPane.rowIndex="4" />
-                  <Button fx:id="button43" mnemonicParsing="false" onAction="#lepeslehetoseg" prefHeight="70.0" prefWidth="70.0" style="-fx-background-radius: 100;" styleClass="greenbutton" GridPane.columnIndex="3" GridPane.rowIndex="4" />
-                  <Button fx:id="button44" mnemonicParsing="false" onAction="#lepeslehetoseg" prefHeight="70.0" prefWidth="70.0" style="-fx-background-radius: 100;" styleClass="greenbutton" GridPane.columnIndex="4" GridPane.rowIndex="4" />
-                  <Button fx:id="button45" mnemonicParsing="false" onAction="#lepeslehetoseg" prefHeight="70.0" prefWidth="70.0" style="-fx-background-radius: 100;" styleClass="greenbutton" GridPane.columnIndex="5" GridPane.rowIndex="4" />
-                  <Button fx:id="button46" mnemonicParsing="false" onAction="#lepeslehetoseg" prefHeight="70.0" prefWidth="70.0" style="-fx-background-radius: 100;" styleClass="redbutton" GridPane.columnIndex="6" GridPane.rowIndex="4" />
-                  <Button fx:id="button50" mnemonicParsing="false" onAction="#lepeslehetoseg" prefHeight="70.0" prefWidth="70.0" style="-fx-background-radius: 100;" styleClass="redbutton" GridPane.rowIndex="5" />
-                  <Button fx:id="button51" mnemonicParsing="false" onAction="#lepeslehetoseg" prefHeight="70.0" prefWidth="70.0" style="-fx-background-radius: 100;" styleClass="greenbutton" GridPane.columnIndex="1" GridPane.rowIndex="5" />
-                  <Button fx:id="button52" mnemonicParsing="false" onAction="#lepeslehetoseg" prefHeight="70.0" prefWidth="70.0" style="-fx-background-radius: 100;" styleClass="greenbutton" GridPane.columnIndex="2" GridPane.rowIndex="5" />
-                  <Button fx:id="button53" mnemonicParsing="false" onAction="#lepeslehetoseg" prefHeight="70.0" prefWidth="70.0" style="-fx-background-radius: 100;" styleClass="greenbutton" GridPane.columnIndex="3" GridPane.rowIndex="5" />
-                  <Button fx:id="button54" mnemonicParsing="false" onAction="#lepeslehetoseg" prefHeight="70.0" prefWidth="70.0" style="-fx-background-radius: 100;" styleClass="greenbutton" GridPane.columnIndex="4" GridPane.rowIndex="5" />
-                  <Button fx:id="button55" mnemonicParsing="false" onAction="#lepeslehetoseg" prefHeight="70.0" prefWidth="70.0" style="-fx-background-radius: 100;" styleClass="greenbutton" GridPane.columnIndex="5" GridPane.rowIndex="5" />
-                  <Button fx:id="button56" mnemonicParsing="false" onAction="#lepeslehetoseg" prefHeight="70.0" prefWidth="70.0" style="-fx-background-radius: 100;" styleClass="redbutton" GridPane.columnIndex="6" GridPane.rowIndex="5" />
-                  <Button fx:id="button60" mnemonicParsing="false" onAction="#lepeslehetoseg" prefHeight="70.0" prefWidth="70.0" style="-fx-background-radius: 100;" styleClass="greenbutton" GridPane.rowIndex="6" />
-                  <Button fx:id="button61" mnemonicParsing="false" onAction="#lepeslehetoseg" prefHeight="70.0" prefWidth="70.0" style="-fx-background-radius: 100;" styleClass="bluebutton" GridPane.columnIndex="1" GridPane.rowIndex="6" />
-                  <Button fx:id="button62" mnemonicParsing="false" onAction="#lepeslehetoseg" prefHeight="70.0" prefWidth="70.0" style="-fx-background-radius: 100;" styleClass="bluebutton" GridPane.columnIndex="2" GridPane.rowIndex="6" />
-                  <Button fx:id="button63" mnemonicParsing="false" onAction="#lepeslehetoseg" prefHeight="70.0" prefWidth="70.0" style="-fx-background-radius: 100;" styleClass="bluebutton" GridPane.columnIndex="3" GridPane.rowIndex="6" />
-                  <Button fx:id="button64" mnemonicParsing="false" onAction="#lepeslehetoseg" prefHeight="70.0" prefWidth="70.0" style="-fx-background-radius: 100;" styleClass="bluebutton" GridPane.columnIndex="4" GridPane.rowIndex="6" />
-                  <Button fx:id="button65" mnemonicParsing="false" onAction="#lepeslehetoseg" prefHeight="70.0" prefWidth="70.0" style="-fx-background-radius: 100;" styleClass="bluebutton" GridPane.columnIndex="5" GridPane.rowIndex="6" />
-                  <Button fx:id="button66" mnemonicParsing="false" onAction="#lepeslehetoseg" prefHeight="70.0" prefWidth="70.0" style="-fx-background-radius: 100;" styleClass="greenbutton" GridPane.columnIndex="6" GridPane.rowIndex="6" />
+                  <Button fx:id="button00" mnemonicParsing="false" onAction="#stepPossibility" prefHeight="70.0" prefWidth="70.0" styleClass="greenbutton" stylesheets="@theme.css" />
+                  <Button fx:id="button01" mnemonicParsing="false" onAction="#stepPossibility" prefHeight="70.0" prefWidth="70.0" styleClass="bluebutton" stylesheets="@theme.css" GridPane.columnIndex="1" />
+                  <Button fx:id="button02" mnemonicParsing="false" onAction="#stepPossibility" prefHeight="70.0" prefWidth="70.0" style="-fx-background-radius: 100;" styleClass="bluebutton" stylesheets="@theme.css" GridPane.columnIndex="2" />
+                  <Button fx:id="button03" mnemonicParsing="false" onAction="#stepPossibility" prefHeight="70.0" prefWidth="70.0" style="-fx-background-radius: 100;" styleClass="bluebutton" GridPane.columnIndex="3" />
+                  <Button fx:id="button04" mnemonicParsing="false" onAction="#stepPossibility" prefHeight="70.0" prefWidth="70.0" style="-fx-background-radius: 100;" styleClass="bluebutton" GridPane.columnIndex="4" />
+                  <Button fx:id="button05" mnemonicParsing="false" onAction="#stepPossibility" prefHeight="70.0" prefWidth="70.0" style="-fx-background-radius: 100;" styleClass="bluebutton" GridPane.columnIndex="5" />
+                  <Button fx:id="button06" mnemonicParsing="false" onAction="#stepPossibility" prefHeight="70.0" prefWidth="70.0" style="-fx-background-radius: 100;" styleClass="greenbutton" stylesheets="@theme.css" GridPane.columnIndex="6" />
+                  <Button fx:id="button10" mnemonicParsing="false" onAction="#stepPossibility" prefHeight="70.0" prefWidth="70.0" style="-fx-background-radius: 100;" styleClass="redbutton" GridPane.rowIndex="1" />
+                  <Button fx:id="button11" mnemonicParsing="false" onAction="#stepPossibility" prefHeight="70.0" prefWidth="70.0" style="-fx-background-radius: 100;" styleClass="greenbutton" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+                  <Button fx:id="button12" mnemonicParsing="false" onAction="#stepPossibility" prefHeight="70.0" prefWidth="70.0" style="-fx-background-radius: 100;" styleClass="greenbutton" GridPane.columnIndex="2" GridPane.rowIndex="1" />
+                  <Button fx:id="button13" mnemonicParsing="false" onAction="#stepPossibility" prefHeight="70.0" prefWidth="70.0" style="-fx-background-radius: 100;" styleClass="greenbutton" GridPane.columnIndex="3" GridPane.rowIndex="1" />
+                  <Button fx:id="button14" mnemonicParsing="false" onAction="#stepPossibility" prefHeight="70.0" prefWidth="70.0" style="-fx-background-radius: 100;" styleClass="greenbutton" stylesheets="@theme.css" GridPane.columnIndex="4" GridPane.rowIndex="1" />
+                  <Button fx:id="button15" mnemonicParsing="false" onAction="#stepPossibility" prefHeight="70.0" prefWidth="70.0" style="-fx-background-radius: 100;" styleClass="greenbutton" stylesheets="@theme.css" GridPane.columnIndex="5" GridPane.rowIndex="1" />
+                  <Button fx:id="button16" mnemonicParsing="false" onAction="#stepPossibility" prefHeight="70.0" prefWidth="70.0" style="-fx-background-radius: 100;" styleClass="redbutton" stylesheets="@theme.css" GridPane.columnIndex="6" GridPane.rowIndex="1" />
+                  <Button fx:id="button20" mnemonicParsing="false" onAction="#stepPossibility" prefHeight="70.0" prefWidth="70.0" style="-fx-background-radius: 100;" styleClass="redbutton" GridPane.rowIndex="2" />
+                  <Button fx:id="button21" mnemonicParsing="false" onAction="#stepPossibility" prefHeight="70.0" prefWidth="70.0" style="-fx-background-radius: 100;" styleClass="greenbutton" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+                  <Button fx:id="button22" mnemonicParsing="false" onAction="#stepPossibility" prefHeight="70.0" prefWidth="70.0" style="-fx-background-radius: 100;" styleClass="greenbutton" GridPane.columnIndex="2" GridPane.rowIndex="2" />
+                  <Button fx:id="button23" mnemonicParsing="false" onAction="#stepPossibility" prefHeight="70.0" prefWidth="70.0" style="-fx-background-radius: 100;" styleClass="greenbutton" GridPane.columnIndex="3" GridPane.rowIndex="2" />
+                  <Button fx:id="button24" mnemonicParsing="false" onAction="#stepPossibility" prefHeight="70.0" prefWidth="70.0" style="-fx-background-radius: 100;" styleClass="greenbutton" GridPane.columnIndex="4" GridPane.rowIndex="2" />
+                  <Button fx:id="button25" mnemonicParsing="false" onAction="#stepPossibility" prefHeight="70.0" prefWidth="70.0" style="-fx-background-radius: 100;" styleClass="greenbutton" GridPane.columnIndex="5" GridPane.rowIndex="2" />
+                  <Button fx:id="button26" mnemonicParsing="false" onAction="#stepPossibility" prefHeight="70.0" prefWidth="70.0" style="-fx-background-radius: 100;" styleClass="redbutton" GridPane.columnIndex="6" GridPane.rowIndex="2" />
+                  <Button fx:id="button30" mnemonicParsing="false" onAction="#stepPossibility" prefHeight="70.0" prefWidth="70.0" style="-fx-background-radius: 100;" styleClass="redbutton" GridPane.rowIndex="3" />
+                  <Button fx:id="button31" mnemonicParsing="false" onAction="#stepPossibility" prefHeight="70.0" prefWidth="70.0" style="-fx-background-radius: 100;" styleClass="greenbutton" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+                  <Button fx:id="button32" mnemonicParsing="false" onAction="#stepPossibility" prefHeight="70.0" prefWidth="70.0" style="-fx-background-radius: 100;" styleClass="greenbutton" GridPane.columnIndex="2" GridPane.rowIndex="3" />
+                  <Button fx:id="button33" mnemonicParsing="false" onAction="#stepPossibility" prefHeight="70.0" prefWidth="70.0" style="-fx-background-radius: 100;" styleClass="greenbutton" GridPane.columnIndex="3" GridPane.rowIndex="3" />
+                  <Button fx:id="button34" mnemonicParsing="false" onAction="#stepPossibility" prefHeight="70.0" prefWidth="70.0" style="-fx-background-radius: 100;" styleClass="greenbutton" GridPane.columnIndex="4" GridPane.rowIndex="3" />
+                  <Button fx:id="button35" mnemonicParsing="false" onAction="#stepPossibility" prefHeight="70.0" prefWidth="70.0" style="-fx-background-radius: 100;" styleClass="greenbutton" GridPane.columnIndex="5" GridPane.rowIndex="3" />
+                  <Button fx:id="button36" mnemonicParsing="false" onAction="#stepPossibility" prefHeight="70.0" prefWidth="70.0" style="-fx-background-radius: 100;" styleClass="redbutton" GridPane.columnIndex="6" GridPane.rowIndex="3" />
+                  <Button fx:id="button40" mnemonicParsing="false" onAction="#stepPossibility" prefHeight="70.0" prefWidth="70.0" style="-fx-background-radius: 100;" styleClass="redbutton" GridPane.rowIndex="4" />
+                  <Button fx:id="button41" mnemonicParsing="false" onAction="#stepPossibility" prefHeight="70.0" prefWidth="70.0" style="-fx-background-radius: 100;" styleClass="greenbutton" GridPane.columnIndex="1" GridPane.rowIndex="4" />
+                  <Button fx:id="button42" mnemonicParsing="false" onAction="#stepPossibility" prefHeight="70.0" prefWidth="70.0" style="-fx-background-radius: 100;" styleClass="greenbutton" GridPane.columnIndex="2" GridPane.rowIndex="4" />
+                  <Button fx:id="button43" mnemonicParsing="false" onAction="#stepPossibility" prefHeight="70.0" prefWidth="70.0" style="-fx-background-radius: 100;" styleClass="greenbutton" GridPane.columnIndex="3" GridPane.rowIndex="4" />
+                  <Button fx:id="button44" mnemonicParsing="false" onAction="#stepPossibility" prefHeight="70.0" prefWidth="70.0" style="-fx-background-radius: 100;" styleClass="greenbutton" GridPane.columnIndex="4" GridPane.rowIndex="4" />
+                  <Button fx:id="button45" mnemonicParsing="false" onAction="#stepPossibility" prefHeight="70.0" prefWidth="70.0" style="-fx-background-radius: 100;" styleClass="greenbutton" GridPane.columnIndex="5" GridPane.rowIndex="4" />
+                  <Button fx:id="button46" mnemonicParsing="false" onAction="#stepPossibility" prefHeight="70.0" prefWidth="70.0" style="-fx-background-radius: 100;" styleClass="redbutton" GridPane.columnIndex="6" GridPane.rowIndex="4" />
+                  <Button fx:id="button50" mnemonicParsing="false" onAction="#stepPossibility" prefHeight="70.0" prefWidth="70.0" style="-fx-background-radius: 100;" styleClass="redbutton" GridPane.rowIndex="5" />
+                  <Button fx:id="button51" mnemonicParsing="false" onAction="#stepPossibility" prefHeight="70.0" prefWidth="70.0" style="-fx-background-radius: 100;" styleClass="greenbutton" GridPane.columnIndex="1" GridPane.rowIndex="5" />
+                  <Button fx:id="button52" mnemonicParsing="false" onAction="#stepPossibility" prefHeight="70.0" prefWidth="70.0" style="-fx-background-radius: 100;" styleClass="greenbutton" GridPane.columnIndex="2" GridPane.rowIndex="5" />
+                  <Button fx:id="button53" mnemonicParsing="false" onAction="#stepPossibility" prefHeight="70.0" prefWidth="70.0" style="-fx-background-radius: 100;" styleClass="greenbutton" GridPane.columnIndex="3" GridPane.rowIndex="5" />
+                  <Button fx:id="button54" mnemonicParsing="false" onAction="#stepPossibility" prefHeight="70.0" prefWidth="70.0" style="-fx-background-radius: 100;" styleClass="greenbutton" GridPane.columnIndex="4" GridPane.rowIndex="5" />
+                  <Button fx:id="button55" mnemonicParsing="false" onAction="#stepPossibility" prefHeight="70.0" prefWidth="70.0" style="-fx-background-radius: 100;" styleClass="greenbutton" GridPane.columnIndex="5" GridPane.rowIndex="5" />
+                  <Button fx:id="button56" mnemonicParsing="false" onAction="#stepPossibility" prefHeight="70.0" prefWidth="70.0" style="-fx-background-radius: 100;" styleClass="redbutton" GridPane.columnIndex="6" GridPane.rowIndex="5" />
+                  <Button fx:id="button60" mnemonicParsing="false" onAction="#stepPossibility" prefHeight="70.0" prefWidth="70.0" style="-fx-background-radius: 100;" styleClass="greenbutton" GridPane.rowIndex="6" />
+                  <Button fx:id="button61" mnemonicParsing="false" onAction="#stepPossibility" prefHeight="70.0" prefWidth="70.0" style="-fx-background-radius: 100;" styleClass="bluebutton" GridPane.columnIndex="1" GridPane.rowIndex="6" />
+                  <Button fx:id="button62" mnemonicParsing="false" onAction="#stepPossibility" prefHeight="70.0" prefWidth="70.0" style="-fx-background-radius: 100;" styleClass="bluebutton" GridPane.columnIndex="2" GridPane.rowIndex="6" />
+                  <Button fx:id="button63" mnemonicParsing="false" onAction="#stepPossibility" prefHeight="70.0" prefWidth="70.0" style="-fx-background-radius: 100;" styleClass="bluebutton" GridPane.columnIndex="3" GridPane.rowIndex="6" />
+                  <Button fx:id="button64" mnemonicParsing="false" onAction="#stepPossibility" prefHeight="70.0" prefWidth="70.0" style="-fx-background-radius: 100;" styleClass="bluebutton" GridPane.columnIndex="4" GridPane.rowIndex="6" />
+                  <Button fx:id="button65" mnemonicParsing="false" onAction="#stepPossibility" prefHeight="70.0" prefWidth="70.0" style="-fx-background-radius: 100;" styleClass="bluebutton" GridPane.columnIndex="5" GridPane.rowIndex="6" />
+                  <Button fx:id="button66" mnemonicParsing="false" onAction="#stepPossibility" prefHeight="70.0" prefWidth="70.0" style="-fx-background-radius: 100;" styleClass="greenbutton" GridPane.columnIndex="6" GridPane.rowIndex="6" />
                </children>
                <cursor>
                   <Cursor fx:constant="DEFAULT" />
                </cursor>
             </GridPane>
-            <Label fx:id="playeronelabel" alignment="CENTER" contentDisplay="CENTER" layoutX="8.0" layoutY="30.0" prefHeight="30.0" prefWidth="394.0" styleClass="labelblue" text="asd" textFill="#57c4f3" AnchorPane.leftAnchor="8.0" AnchorPane.rightAnchor="402.0" AnchorPane.topAnchor="20.0">
+            <Label fx:id="player1Label" alignment="CENTER" contentDisplay="CENTER" layoutX="8.0" layoutY="30.0" prefHeight="30.0" prefWidth="394.0" styleClass="labelblue" text="asd" textFill="#57c4f3" AnchorPane.leftAnchor="8.0" AnchorPane.rightAnchor="402.0" AnchorPane.topAnchor="20.0">
                <font>
                   <Font name="System Bold" size="28.0" />
                </font></Label>
-            <Label fx:id="playertwolabel" alignment="CENTER" layoutX="638.0" layoutY="38.0" styleClass="labelred" text="asd" textFill="#e46d6d" AnchorPane.leftAnchor="350.0" AnchorPane.rightAnchor="20.0" AnchorPane.topAnchor="20.0">
+            <Label fx:id="player2Label" alignment="CENTER" layoutX="638.0" layoutY="38.0" styleClass="labelred" text="asd" textFill="#e46d6d" AnchorPane.leftAnchor="350.0" AnchorPane.rightAnchor="20.0" AnchorPane.topAnchor="20.0">
                <font>
                   <Font name="System Bold" size="28.0" />
                </font></Label>
-            <Label fx:id="lepeslabel" alignment="CENTER" layoutX="8.0" layoutY="51.0" prefHeight="19.0" prefWidth="796.0" text="ColorGame" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="47.0">
+            <Label fx:id="stepLabel" alignment="CENTER" layoutX="8.0" layoutY="51.0" prefHeight="19.0" prefWidth="796.0" text="ColorGame" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="47.0">
                <font>
                   <Font size="23.0" />
                </font></Label>
-            <Label fx:id="onepointslabel" layoutX="62.0" layoutY="326.0" text="0" textFill="WHITE" AnchorPane.bottomAnchor="213.0">
+            <Label fx:id="points1Label" layoutX="62.0" layoutY="326.0" text="0" textFill="WHITE" AnchorPane.bottomAnchor="213.0">
                <font>
                   <Font size="50.0" />
                </font>
             </Label>
-            <Label fx:id="twopointslabel" layoutX="710.0" layoutY="315.0" prefHeight="16.0" prefWidth="7.0" text="0" textFill="WHITE" AnchorPane.bottomAnchor="213.0">
+            <Label fx:id="points2Label" layoutX="710.0" layoutY="315.0" prefHeight="16.0" prefWidth="7.0" text="0" textFill="WHITE" AnchorPane.bottomAnchor="213.0">
                <font>
                   <Font size="50.0" />
                </font>

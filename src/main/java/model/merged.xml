@@ -211,15 +211,39 @@
     <points>28</points>
   </player>
 <player name="lk">
-    <matchesplayed>31</matchesplayed>
+    <matchesplayed>34</matchesplayed>
     <matcheswon>0</matcheswon>
     <matchesdraw>0</matchesdraw>
     <points>21</points>
   </player>
 <player name="lkn">
+    <matchesplayed>34</matchesplayed>
+    <matcheswon>34</matcheswon>
+    <matchesdraw>0</matchesdraw>
+    <points>307</points>
+  </player>
+<player name="76zzz">
     <matchesplayed>31</matchesplayed>
     <matcheswon>31</matcheswon>
     <matchesdraw>0</matchesdraw>
-    <points>283</points>
+    <points>314</points>
+  </player>
+<player name="uuuuuu567">
+    <matchesplayed>31</matchesplayed>
+    <matcheswon>0</matcheswon>
+    <matchesdraw>0</matchesdraw>
+    <points>52</points>
+  </player>
+<player name="Urgundi Gyula">
+    <matchesplayed>1</matchesplayed>
+    <matcheswon>0</matcheswon>
+    <matchesdraw>1</matchesdraw>
+    <points>5</points>
+  </player>
+<player name="Timo Tizenkettő">
+    <matchesplayed>1</matchesplayed>
+    <matcheswon>0</matcheswon>
+    <matchesdraw>1</matchesdraw>
+    <points>5</points>
   </player>
 </players>
