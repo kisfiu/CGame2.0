@@ -247,15 +247,15 @@
     <points>27</points>
   </player>
 <player name="Zsa">
-    <matchesplayed>1</matchesplayed>
+    <matchesplayed>2</matchesplayed>
     <matcheswon>0</matcheswon>
-    <matchesdraw>1</matchesdraw>
-    <points>4</points>
+    <matchesdraw>2</matchesdraw>
+    <points>8</points>
   </player>
 <player name="Almalé">
-    <matchesplayed>1</matchesplayed>
+    <matchesplayed>2</matchesplayed>
     <matcheswon>0</matcheswon>
-    <matchesdraw>1</matchesdraw>
-    <points>4</points>
+    <matchesdraw>2</matchesdraw>
+    <points>8</points>
   </player>
 </players>
