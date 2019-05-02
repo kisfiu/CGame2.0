@@ -180,7 +180,7 @@
     <matchesdraw>0</matchesdraw>
     <points>18</points>
   </player>
-<player name="akkornejÃ¡tsz">
+<player name="akkornejátsz">
     <matchesplayed>2</matchesplayed>
     <matcheswon>0</matcheswon>
     <matchesdraw>0</matchesdraw>
@@ -204,7 +204,7 @@
     <matchesdraw>0</matchesdraw>
     <points>28</points>
   </player>
-<player name="ASÃ¶8uik">
+<player name="ASö8uik">
     <matchesplayed>58</matchesplayed>
     <matcheswon>0</matcheswon>
     <matchesdraw>0</matchesdraw>
@@ -240,22 +240,34 @@
     <matchesdraw>4</matchesdraw>
     <points>27</points>
   </player>
-<player name="Timo TizenkettÅ‘">
+<player name="Timo Tizenkett?">
     <matchesplayed>4</matchesplayed>
     <matcheswon>0</matcheswon>
     <matchesdraw>4</matchesdraw>
     <points>27</points>
   </player>
 <player name="Zsa">
-    <matchesplayed>2</matchesplayed>
+    <matchesplayed>3</matchesplayed>
     <matcheswon>0</matcheswon>
-    <matchesdraw>2</matchesdraw>
-    <points>8</points>
+    <matchesdraw>3</matchesdraw>
+    <points>19</points>
   </player>
-<player name="AlmalÃ©">
-    <matchesplayed>2</matchesplayed>
+<player name="Almalé">
+    <matchesplayed>3</matchesplayed>
     <matcheswon>0</matcheswon>
-    <matchesdraw>2</matchesdraw>
-    <points>8</points>
+    <matchesdraw>3</matchesdraw>
+    <points>19</points>
+  </player>
+<player name="janó">
+    <matchesplayed>1</matchesplayed>
+    <matcheswon>1</matcheswon>
+    <matchesdraw>0</matchesdraw>
+    <points>9</points>
+  </player>
+<player name="helga">
+    <matchesplayed>1</matchesplayed>
+    <matcheswon>0</matcheswon>
+    <matchesdraw>0</matchesdraw>
+    <points>0</points>
   </player>
 </players>
